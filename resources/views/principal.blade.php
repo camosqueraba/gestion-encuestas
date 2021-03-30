@@ -5,61 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Encuestas Perfect Body</title>
-    
-    <link rel="stylesheet" id="monsterinsights-popular-posts-style-css" href="../resources/css/frontend.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="google-font-source-sans-pro-css" href="../resources/css/css" type="text/css" media="all">
-    <link rel="stylesheet" id="google-font-open-sans-css" href="../resources/css/css(1)" type="text/css" media="all">
-    <link rel="stylesheet" id="google-font-pt-serif-css" href="../resources/css/css(2)" type="text/css" media="all">
-    <link rel="stylesheet" id="reset-css" href="./resources/css/reset.css" type="text/css" media="all">
-    <link rel="stylesheet" id="superfish-css" href="../resources/css/superfish.css" type="text/css" media="all">
-    <link rel="stylesheet" id="prettyPhoto-css" href="../resources/css/prettyPhoto.css" type="text/css" media="all">
-    <link rel="stylesheet" id="jquery-qtip-css" href="../resources/css/jquery.qtip.css" type="text/css" media="all">
-    <link rel="stylesheet" id="odometer-css" href="../resources/css/odometer-theme-default.css" type="text/css" media="all">
-    <link rel="stylesheet" id="animations-css" href="../resources/css/animations.css" type="text/css" media="all">
-    <link rel="stylesheet" id="main-style-css" href="../resources/css/style.css" type="text/css" media="all">
-    <link rel="stylesheet" id="responsive-css" href="../resources/css/responsive.css" type="text/css" media="all">
-    <link rel="stylesheet" id="mc-features-css" href="../resources/css/style(1).css" type="text/css" media="all">
-    <link rel="stylesheet" id="mc-template-css" href="../resources/css/style(2).css" type="text/css" media="all">
-    <link rel="stylesheet" id="mc-social-css" href="../resources/css/style(3).css" type="text/css" media="all">
-    <link rel="stylesheet" id="custom-css" href="../resources/css/custom.css" type="text/css" media="all">
-    <link rel="stylesheet" id="joinchat-css" href="../resources/css/joinchat.min.css" type="text/css" media="all">
-    <style id="joinchat-inline-css" type="text/css">
-    .joinchat{ --red:37; --green:211; --blue:102; }
-    </style>
-    <link rel="stylesheet" id="js_composer_front-css" href="../resources/css/js_composer_front_custom.css" type="text/css" media="all">
-    <link rel="stylesheet" id="js_composer_custom_css-css" href="../resources/css/custom(1).css" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../resources/css/estilos.css" type='text/css' media='all' />
 
 
 </head>
 <body>
-    <div class="site-container fullwidth">
-        <div class="header-top-sidebar-container">
-            <div class="header-top-sidebar clearfix">
-                <div class="textwidget">
-                    <div style='padding: 17px 0;' class='clearfix'>
-                        <ul class='thin-list'>
-                        <li>
-                        <span class="header-icon template-location">Carrera 20 # 15 - 110 Santa Marta</span>
-                        </li>
-                        <li>
-                        <a href="tel:4237101" class="header-icon template-phone">(5) 4237101</a>
-                        </li>
-                        <li>
-                        <a href="mailto:info@perfectbody.com.co" class="header-icon template-mail">info@perfectbody.com.co</a>
-                        </li>
-                        </ul>
+    <div class="site-container fullwidth contenedor-principal">
+        <div class="contenedor-principal">
+            <div class="header-top-sidebar-container datos-contacto-contenedor">
+            
+                <div class="header-top-sidebar clearfix">
+                    <div class="textwidget">
+                        <div style='padding: 17px 0;' class='clearfix'>
+                            <ul class='thin-list'>
+                            <li class="dato-contacto">
+                                
+                            <span class="header-icon template-location texto"> <span class="material-icons material-icons.md-18 ">location_on</span>Carrera 20 # 15 - 110 Santa Marta </span>
+                            </li>
+                            <li class="dato-contacto">
+                            <a href="tel:4237101" class="header-icon template-phone texto"><span class="material-icons material-icons.md-18 ">phone</span>(5) 4237101</a>
+                            </li>
+                            <li class="dato-contacto">
+                            <a href="mailto:info@perfectbody.com.co" class="header-icon template-mail texto"><span class="material-icons material-icons.md-18">email</span>info@perfectbody.com.co</a>
+                            </li>
+                            </ul>
 
-                        <div class="icons-list">
-                            <a href="https://twitter.com/perfectbodymb" target="_blank" class="icon-single mc-icon social-twitter" rel="noopener noreferrer"></a>
-                            <a href="https://www.facebook.com/perfectbodymc/" target="_blank" class="icon-single mc-icon social-facebook" rel="noopener noreferrer"></a>
-                            <a href="https://www.instagram.com/perfectbodymc" target="_blank" class="icon-single mc-icon social-instagram" rel="noopener noreferrer"></a>
+                            <div class="icons-list">
+                                <a href="https://twitter.com/perfectbodymb" target="_blank" class="icon-single mc-icon social-twitter" rel="noopener noreferrer"></a>
+                                <a href="https://www.facebook.com/perfectbodymc/" target="_blank" class="icon-single mc-icon social-facebook" rel="noopener noreferrer"></a>
+                                <a href="https://www.instagram.com/perfectbodymc" target="_blank" class="icon-single mc-icon social-instagram" rel="noopener noreferrer"></a>
 
-                            <!--<a href="http://www.perfectbody.com.co/vacantes/">Trabaje con nosotros</a>-->
+                                <!--<a href="http://www.perfectbody.com.co/vacantes/">Trabaje con nosotros</a>-->
+                            </div>
                         </div>
-                   </div>
-               </div>
-           </div>
-       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
            
        <!-- Header -->
         <div class="header-container ">
@@ -213,37 +199,6 @@
 
 
 
-    <script type='text/javascript' src='../resources/js/jquery/ui/core.min.js?ver=1.11.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
-    <script type='text/javascript'>
-    jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
-    </script>
-    <script type='text/javascript' src='../resources/js/jquery.imagesloaded-packed.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.ba-bbq.min.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.history.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.easing.1.3.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.carouFredSel-6.2.1-packed.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.sliderControl.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.timeago.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.hint.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.isotope-packed.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.prettyPhoto.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.qtip.min.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.blockUI.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/jquery.parallax.min.js?ver=5.4.4'></script>
-    <script type='text/javascript'>
-    /* <![CDATA[ */
-    var config = [];
-    config = {"ajaxurl":"http:\/\/www.perfectbody.com.co\/wp-admin\/admin-ajax.php","themename":"medicenter","home_url":"http:\/\/www.perfectbody.com.co","is_rtl":0};;
-    /* ]]> */
-    </script>
-    <script type='text/javascript' src='../resources/js/main.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/odometer.min.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=4.1.10'></script>
-    <script type='text/javascript' src='../resources/js//js/wp-embed.min.js?ver=5.4.4'></script>
-    <script type='text/javascript' src='../resources/js/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.1'></script>
+    
 </body>
 </html>
