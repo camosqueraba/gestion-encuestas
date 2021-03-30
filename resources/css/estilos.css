@@ -2,15 +2,10 @@ body{
 
     margin: 0px;
     padding: 0px;
-}
-
-.contenedor-principal{
-    margin: 0px;
-    padding: 0px;
     background-color: white;
-
-
 }
+
+
 ul{
     list-style-type:none;
 }

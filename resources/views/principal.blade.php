@@ -13,13 +13,16 @@
 
 </head>
 <body>
+    <!--
     <div class="site-container fullwidth contenedor-principal">
+        -->
         <div class="contenedor-principal">
             <div class="header-top-sidebar-container datos-contacto-contenedor">
-            
+                <!--
                 <div class="header-top-sidebar clearfix">
                     <div class="textwidget">
                         <div style='padding: 17px 0;' class='clearfix'>
+                        -->
                             <ul class='thin-list'>
                             <li class="dato-contacto">
                                 
