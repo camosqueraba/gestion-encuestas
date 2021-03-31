@@ -17,23 +17,23 @@
     <div class="site-container fullwidth contenedor-principal">
         -->
         <div class="contenedor-principal">
-            <div class="header-top-sidebar-container datos-contacto-contenedor">
+            <div class="header-top-sidebar-container datos-contacto-contenedor dato-contacto">
                 <!--
                 <div class="header-top-sidebar clearfix">
                     <div class="textwidget">
                         <div style='padding: 17px 0;' class='clearfix'>
                         -->
                             <ul class='thin-list'>
-                            <li class="dato-contacto">
-                                
-                            <span class="header-icon template-location texto"> <span class="material-icons material-icons.md-18 ">location_on</span>Carrera 20 # 15 - 110 Santa Marta </span>
-                            </li>
-                            <li class="dato-contacto">
-                            <a href="tel:4237101" class="header-icon template-phone texto"><span class="material-icons material-icons.md-18 ">phone</span>(5) 4237101</a>
-                            </li>
-                            <li class="dato-contacto">
-                            <a href="mailto:info@perfectbody.com.co" class="header-icon template-mail texto"><span class="material-icons material-icons.md-18">email</span>info@perfectbody.com.co</a>
-                            </li>
+                                <li class="dato-contacto">
+                                    
+                                <span class="header-icon template-location texto"> <span class="material-icons material-icons.md-14">location_on</span>Carrera 20 # 15 - 110 Santa Marta </span>
+                                </li>
+                                <li class="dato-contacto">
+                                    <a href="tel:4237101" class="header-icon template-phone texto"><span class="material-icons material-icons.md-14">phone</span>(5) 4237101</a>
+                                </li>
+                                <li class="dato-contacto">
+                                    <a href="mailto:info@perfectbody.com.co" class="header-icon template-mail texto"><span class="material-icons material-icons.md-14">email</span>info@perfectbody.com.co</a>
+                                </li>
                             </ul>
 
                             <div class="icons-list">
@@ -43,9 +43,10 @@
 
                                 <!--<a href="http://www.perfectbody.com.co/vacantes/">Trabaje con nosotros</a>-->
                             </div>
+                        <!--
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
         
@@ -53,7 +54,7 @@
        <!-- Header -->
         <div class="header-container ">
             <div class="header clearfix layout-1">
-                <div class="header-left">
+                <div class="header-left dato-contacto">
                     <a href="http://www.perfectbody.com.co" title="Perfect Body Medical Center - Santa Marta Colombia">
                         <img src="http://www.perfectbody.com.co/wp-content/uploads/2020/05/Perfect-Body-Santa-Marta.png" alt="logo" />
                     </a>
@@ -64,19 +65,19 @@
                         <span class="line"></span>
                     </a>
                 </div>
-                <div class="menu-main-menu-container">
+                <div class="menu-main-menu-container dato-contacto">
                     <ul id="menu-main-menu" class="sf-menu header-right">
-                        <li id="menu-item-3965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3756 current_page_item menu-item-3965">
+                        <li id="menu-item-3965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3756 current_page_item menu-item-3965 dato-contacto">
                             <a href="http://www.perfectbody.com.co/" aria-current="page">
                                 INICIO
                             </a>
                         </li>
-                        <li id="menu-item-3995" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-3995">
+                        <li id="menu-item-3995" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-3995 dato-contacto">
                             <a href="http://www.perfectbody.com.co/la-institucion/">
-                                NUESTRA INSTITUCIÓN
+                                ENCUESTAS
                             </a>
                             <ul class="sub-menu">
-                                <li id="menu-item-4362" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-4362">
+                                <li id="menu-item-4362" class="menu-item menu-item-type-custom  menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-4362">
                                     <a href="http://www.perfectbody.com.co/#" aria-current="page">
                                         Marco legal
                                     </a>
@@ -104,12 +105,14 @@
                                 -->
                             </ul>
                         </li>
+                        <!--
                         <li id="menu-item-4071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4071">
                             <a href="http://www.perfectbody.com.co/servicios/">
-                                SERVICIOS
+                                
                             </a>
                         </li>
-                        <li id="menu-item-4001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4001"><a href="http://www.perfectbody.com.co/informacion-paciente-y-familia/">INFORMACIÓN PACIENTE Y FAMILIA</a>
+                        -->
+                        <li id="menu-item-4001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4001 dato-contacto"><a href="http://www.perfectbody.com.co/informacion-paciente-y-familia/ ">USUARIOS</a>
                             <ul class="sub-menu">
                                 <li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4261">
                                     <a href="http://www.perfectbody.com.co/atencion-al-usuario/">
@@ -118,21 +121,21 @@
                                 </li>
                             </ul>
                         </li>
-                        <li id="menu-item-3939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3939">
+                        <li id="menu-item-3939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3939 dato-contacto">
                             <a href="http://www.perfectbody.com.co/blog/">
                                 NOVEDADES
                             </a>
                         </li>
-                        <li id="menu-item-3922" class="left-flyout menu-item menu-item-type-post_type menu-item-object-page menu-item-3922">
+                        <li id="menu-item-3922" class="left-flyout menu-item menu-item-type-post_type menu-item-object-page menu-item-3922 dato-contacto">
                             <a href="http://www.perfectbody.com.co/contacto/">
-                                CONTACTO
+                                INGRESAR
                             </a>
                         </li>
                     </ul>
                 </div>
                 
                 
-                <!-- pantalla mobile -->
+                <!-- pantalla mobile 
                 <div class="mobile-menu-container clearfix">
                     <div class="mobile-menu-divider"></div>
                     <nav class="mobile-menu collapsible-mobile-submenus">
@@ -195,7 +198,8 @@
                             </li>
                         </ul>
                     </nav>    
-                </div>    							
+                </div>   
+                --> 							
             </div>
         </div>
     </div>
