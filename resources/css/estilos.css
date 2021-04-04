@@ -35,9 +35,20 @@ li {
 .material-icons{
 
     font-size: 14px;
+    display: inline-block;
+}
+
+.menu-item-has-children{
+    padding-top:  5px
+}
+.opcion-desplegable{
+
+    padding-top:  5px
 }
 
 /* Rules for sizing the icon. */
+.material-icons.md-5 { font-size: 3px;
+margin-top:  50px; }
 .material-icons.md-14 { font-size: 14px; }
 .material-icons.md-16 { font-size: 16px; }
 .material-icons.md-18 { font-size: 18px; }
@@ -53,12 +64,12 @@ li {
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 .material-icons.orange600 { color: #FB8C00; }
-
+/*
 .material-icons{
 
     font-size: 20px;
 }
-
+*/
 .texto{
         
     font-family: 'Open Sans', 'Arial', sans-serif;
