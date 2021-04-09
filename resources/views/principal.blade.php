@@ -52,11 +52,11 @@
         
            
        <!-- Header -->
-        <div class="header-container ">
+        <div class="header-container">
             <div class="header clearfix layout-1">
                 <div class="header-left dato-contacto">
                     <a href="http://www.perfectbody.com.co" title="Perfect Body Medical Center - Santa Marta Colombia">
-                        <img src="http://www.perfectbody.com.co/wp-content/uploads/2020/05/Perfect-Body-Santa-Marta.png" alt="logo" />
+                        <img src="http://www.perfectbody.com.co/wp-content/uploads/2020/05/Perfect-Body-Santa-Marta.png" alt="logo"/>
                     </a>
                     <a href="#" class="mobile-menu-switch vertical-align-cell">
                         <span class="line"></span>
