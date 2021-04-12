@@ -8,53 +8,57 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="format-detection" content="telephone=no">
+	<!--
 	<meta name="generator" content="WordPress 5.4.4">
 	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
 	<meta name="generator" content="Powered by Slider Revolution 6.2.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+	-->
 
 	<!--style-->
 	<link rel="pingback" href="http://www.perfectbody.com.co/xmlrpc.php">
-	<link rel="icon" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/favicon_perfect.png">
+	<link rel="icon" href="../resources/images/favicon_perfect.png">
 	
 	<title>Perfect Body Medical Center – Santa Marta Colombia</title>
 	<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 	<link rel="dns-prefetch" href="http://s.w.org/">
 	
+	<!--boostrap styles-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-	<link rel="stylesheet" id="wp-block-library-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/style.min.css" type="text/css" media="all">
-	<link rel="stylesheet" id="wp-block-library-theme-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/theme.min.css" type="text/css" media="all">
-	<link rel="stylesheet" id="rs-plugin-settings-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/rs6.css" type="text/css" media="all">
+	<link rel="stylesheet" id="wp-block-library-css" href="../resources/css/style.min.css" type="text/css" media="all">
+	<link rel="stylesheet" id="wp-block-library-theme-css" href="../resources/css/theme.min.css" type="text/css" media="all">
+	<link rel="stylesheet" id="rs-plugin-settings-css" href="../resources/css/rs6.css" type="text/css" media="all">
 	<style id="rs-plugin-settings-inline-css" type="text/css">
 	
 	</style>
-	<link rel="stylesheet" id="monsterinsights-popular-posts-style-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/frontend.min.css" type="text/css" media="all">
-	<link rel="stylesheet" id="google-font-source-sans-pro-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/css.css" type="text/css" media="all">
-	<link rel="stylesheet" id="google-font-open-sans-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/css(1).css" type="text/css" media="all">
-	<link rel="stylesheet" id="google-font-pt-serif-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/css(2).css" type="text/css" media="all">
-	<link rel="stylesheet" id="reset-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/reset.css" type="text/css" media="all">
-	<link rel="stylesheet" id="superfish-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/superfish.css" type="text/css" media="all">
-	<link rel="stylesheet" id="prettyPhoto-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/prettyPhoto.css" type="text/css" media="all">
-	<link rel="stylesheet" id="jquery-qtip-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.qtip.css" type="text/css" media="all">
-	<link rel="stylesheet" id="odometer-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/odometer-theme-default.css" type="text/css" media="all">
-	<link rel="stylesheet" id="animations-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/animations.css" type="text/css" media="all">
-	<link rel="stylesheet" id="main-style-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/style.css" type="text/css" media="all">
-	<link rel="stylesheet" id="responsive-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/responsive.css" type="text/css" media="all">
-	<link rel="stylesheet" id="mc-features-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/style(1).css" type="text/css" media="all">
-	<link rel="stylesheet" id="mc-template-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/style(2).css" type="text/css" media="all">
-	<link rel="stylesheet" id="mc-social-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/style(3).css" type="text/css" media="all">
-	<link rel="stylesheet" id="custom-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/custom.css" type="text/css" media="all">
-	<link rel="stylesheet" id="joinchat-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/joinchat.min.css" type="text/css" media="all">
+	<link rel="stylesheet" id="monsterinsights-popular-posts-style-css" href="../resources/css/frontend.min.css" type="text/css" media="all">
+	<link rel="stylesheet" id="google-font-source-sans-pro-css" href="../resources/css/css.css" type="text/css" media="all">
+	<link rel="stylesheet" id="google-font-open-sans-css" href="../resources/css/css(1).css" type="text/css" media="all">
+	<link rel="stylesheet" id="google-font-pt-serif-css" href="../resources/css/css(2).css" type="text/css" media="all">
+	<link rel="stylesheet" id="reset-css" href="../resources/css/reset.css" type="text/css" media="all">
+	<link rel="stylesheet" id="superfish-css" href="../resources/css/superfish.css" type="text/css" media="all">
+	<link rel="stylesheet" id="prettyPhoto-css" href="../resources/css/prettyPhoto.css" type="text/css" media="all">
+	<link rel="stylesheet" id="jquery-qtip-css" href="../resources/css/jquery.qtip.css" type="text/css" media="all">
+	<link rel="stylesheet" id="odometer-css" href="../resources/css/odometer-theme-default.css" type="text/css" media="all">
+	<link rel="stylesheet" id="animations-css" href="../resources/css/animations.css" type="text/css" media="all">
+	<link rel="stylesheet" id="main-style-css" href="../resources/css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" id="responsive-css" href="../resources/css/responsive.css" type="text/css" media="all">
+	<link rel="stylesheet" id="mc-features-css" href="../resources/css/style(1).css" type="text/css" media="all">
+	<link rel="stylesheet" id="mc-template-css" href="../resources/css/style(2).css" type="text/css" media="all">
+	<link rel="stylesheet" id="mc-social-css" href="../resources/css/style(3).css" type="text/css" media="all">
+	<link rel="stylesheet" id="custom-css" href="../resources/css/custom.css" type="text/css" media="all">
+	<link rel="stylesheet" id="joinchat-css" href="../resources/css/joinchat.min.css" type="text/css" media="all">
 	<style id="joinchat-inline-css" type="text/css">
 	.joinchat{ --red:37; --green:211; --blue:102; }
 	</style>
-	<link rel="stylesheet" id="js_composer_front-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/js_composer_front_custom.css" type="text/css" media="all">
-	<link rel="stylesheet" id="js_composer_custom_css-css" href="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/custom(1).css" type="text/css" media="all">
+	<link rel="stylesheet" id="js_composer_front-css" href="../resources/css/js_composer_front_custom.css" type="text/css" media="all">
+	<link rel="stylesheet" id="js_composer_custom_css-css" href="../resources/css/custom(1).css" type="text/css" media="all">
 	
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/frontend-gtag.min.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery-migrate.min.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/rbtools.min.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/rs6.min.js"></script>
+	<script type="text/javascript" src="../resources/js/frontend-gtag.min.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="../resources/js/rbtools.min.js"></script>
+	<script type="text/javascript" src="../resources/js/rs6.min.js"></script>
 	<link rel="https://api.w.org/" href="http://www.perfectbody.com.co/wp-json/">
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.perfectbody.com.co/xmlrpc.php?rsd">
 	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.perfectbody.com.co/wp-includes/wlwmanifest.xml"> 
@@ -105,7 +109,7 @@
 			<div class="header clearfix layout-1">
 				<div class="header-left">
 						<a href="http://www.perfectbody.com.co/" title="Perfect Body Medical Center - Santa Marta Colombia">
-							<img src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/Perfect-Body-Santa-Marta.png" alt="logo">
+							<img src="../resources/images/Perfect-Body-Santa-Marta.png" alt="logo">
 						</a>
 						<a href="http://www.perfectbody.com.co/#" class="mobile-menu-switch vertical-align-cell">
 							<span class="line"></span>
@@ -121,12 +125,17 @@
 								INICIO
 							</a>
 						</li>
+						<!--
+						<li id="menu-item-3995" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-3995">
+							<a href="http://www.perfectbody.com.co/la-institucion/">NUESTRA INSTITUCIÓN</a>
+						
+						
 						<li id="menu-item-3995" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent opcion-desplegable current_page_ancestor .menu-item-has-children menu-item-3995">
 							<a href="http://www.perfectbody.com.co/la-institucion/">
 								NUESTRA INSTITUCIÓN 
 								<i class="material-icons material-icons.md-5">expand_more</i>
-							</a>  
-
+							</a>
+							-->
 							<ul class="sub-menu">
 								<li id="menu-item-4362" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4362"><a href="http://www.perfectbody.com.co/#" aria-current="page">Marco legal</a>
 								<ul class="sub-menu">
@@ -221,17 +230,442 @@
 		<!-- /Header -->
 		
 		<!--Encuesta-->
-		<section>
-			<h2 class="titulo encuesta">Titulo Encuesta</h2>
-			<p class="descripcion-encuesta">Descripcion Encuesta</p>
-			<div class="contenedor-preguntas">
-				<h3 class="pregunta">pregunta1</h3>
-				<h3 class="pregunta">pregunta2</h3>
-				<h3 class="pregunta">pregunta3</h3>
-				<h3 class="pregunta">pregunta4</h3>
-				<h3 class="pregunta">pregunta5</h3>
-			</div>
-		</section>
+		
+		<br />
+  <div class="container">
+    <section class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">Formato de Encuesta de Satisfacción.</h1>
+        <p class="text-center">ESE Hospital San Rafael de Girardota.</p>
+      </div>
+    </section>
+    <hr><br />
+    <section class="row">
+      <section class="col-md-12">
+        <h3>Datos basicos</h3>
+        <p></p>
+      </section>
+    </section>
+    <section class="row">
+      <section class="col-md-12">
+        <section class="row">
+          <div class="col-md-4">
+            <label for="tipoAtencion">Tipo de Atención: *</label>
+            <select class="form-control" id="tipoAtencion">
+            <option value="ce">Consulta Externa</option>
+            <option value="farm">Farmacia</option>
+            <option value="fisi">Fisioterapia</option>
+            <option value="fo">Fo</option>
+            <option value="hosp">Hospitalizació</option>
+            <option value="odon">Odontologia</option>
+            <option value="pyp">Promoción y Prevención</option>
+            <option value="rx">Rayos X</option>
+            <option value="urge">Urgencias</option>
+          </select>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="fechaActual">Fecha Actual: *</label>
+              <input type="date" class="form-control" id="fechaActual" required>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="fechaActencion">Fecha Atención: *</label>
+              <input type="date" class="form-control" id="fechaAtencion" required>
+            </div>
+          </div>
+        </section>
+        <section class="row">
+          <div class="col-md-8">
+            <div class="form-group">
+              <label for="nombreCompleto">Nombre Compelto: *</label>
+              <input type="text" class="form-control" id="nombreCompleto" maxlength="128" placeholder="Nombre Compelto" required>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form_group">
+              <label for="edadEncuestado">Edad: *</label>
+              <input type="number" class="form-control" id="edadEncuestado" placeholder="Edad" maxlength="3" required/>
+            </div>
+          </div>
+        </section>
+        <section class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="idIdentificacion">Identificación: *</label>
+              <input type="number" id="idIdentificacion" class="form-control" placeholder="Numero de Identificación" maxlength="15" required/>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="telefono">Telefono: *</label>
+            <input type="text" class="form-control" id="telefono" placeholder="Numero Telefonico" maxlength="12" required/>
+          </div>
+          <div class="col-md-4">
+            <label for="epsPaciente">EPS: *</label>
+            <input type="text" class="form-control" id="epsPaciente" placeholder "EPS del Paciente" required />
+          </div>
+        </section>
+      </section>
+    </section>
+    <hr />
+
+    <!--  Servicios  -->
+    <section class="row">
+      <div class="col-md-12">
+        <h3>Servicio.</h3>
+        <p></p>
+      </div>
+    </section>
+    <!--  PREGUNTA 1  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>1- ¿"Sabe usted que tiene derechos y deberes en salud?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 2  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>2- ¿A su llegada al hospital los tramites de ingreso y atención fueron claros? </p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 3  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>3- ¿Al ingreso al hospital encontró información visible que le indique el sitio donde va a ser atendido? </p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 4  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>4- ¿Sabe usted en que horario solicitar una cita y cuál es el número telefónico?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section><br>
+    <hr>
+    <!--  Durante la Atención  -->
+    <section class="row">
+      <div class="col-md-12">
+        <h3>Durante la Atención.</h3>
+        <p></p>
+      </div>
+    </section>
+    <!--  PREGUNTA 5  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>5- ¿Está satisfecho con el tiempo que tuvo que esperar para ser atendido?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 6  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>6- ¿El profesional le pregunto el motivo de la consulta, sus enfermedades anteriores y familiares?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 7  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>7- ¿Considera que lo atendieron en condiciones de privacidad?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 8  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>8- ¿El profesional que lo atendió se presentó por el nombre? </p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 9  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>9- ¿Piensa que fue atendido amablemente en este hospital?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section><br />
+    <hr />
+    <!--  Durante la Atención  -->
+    <section class="row">
+      <div class="col-md-12">
+        <h3>Salida del usuario.</h3>
+        <p></p>
+      </div>
+    </section>
+    <!--  PREGUNTA 10  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>10- ¿A usted y/o a su familia le dieron las recomendaciones sobre cómo cuidar su salud en casa?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 11  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>11- ¿Las áreas del servicio donde fue atendido, se encontraban limpias, comodas y agradables?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 12  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>12- ¿Si se requiere volveria a utilizar nuestros servicios?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+
+
+
+
+
+    <br />
+    <hr />
+    <!--  Satisfacción General  -->
+    <section class="row">
+      <div class="col-md-12">
+        <h3>Satisfacción General.</h3>
+        <p></p>
+      </div>
+    </section>
+    <!--  PREGUNTA 13  -->
+    <section class="row">
+      <div class="col-md-12">
+        <section class="row">
+          <div class="col-md-8">
+            <p>13- ¿Cómo calificaría su experiencia global respecto a los servicios de salud que ha recibido a través del Hospital?</p>
+          </div>
+          <div class="col-md-4">
+            <select class="form-control" id="pregunta13">
+            <option value="5">Muy Buena</option>
+            <option value="4">Buena</option>
+            <option value="3">Regular</option>
+            <option value="2">Mala</option>
+            <option value="1">Muy Mala</option>
+            <option value="0">No Responde</option>
+          </select>
+          </div>
+        </section>
+      </div>
+    </section><br />
+    <!--  PREGUNTA 14  -->
+    <section class="row">
+      <div class="col-md-12">
+        <section class="row">
+          <div class="col-md-8">
+            <p>14- ¿Recomendaria a sus familiares y amigos este Hospital?</p>
+          </div>
+          <div class="col-md-4">
+            <select class="form-control" id="pregunta14">
+            <option value="5">Muy Buena</option>
+            <option value="4">Buena</option>
+            <option value="3">Regular</option>
+            <option value="2">Mala</option>
+            <option value="1">Muy Mala</option>
+            <option value="0">No Responde</option>
+          </select>
+          </div>
+        </section>
+      </div>
+    </section><br />
+    <hr />
+
+    <!--  Comentarios  -->
+    <section class="row">
+      <div class="col-md-12">
+        <h3>Comentarios.</h3>
+        <p></p>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="comment">Comentarios:</label>
+          <textarea class="form-control" rows="6" id="comentarios"></textarea>
+        </div>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-12">
+        <button type="button" class="btn btn-info" id="saveForm" onclick="saveForm">Guardar Encuesta</button>
+        <button type="button" class="btn btn-danger" id="clearForm">Limpiar formulario</button>
+      </div>
+    </section>
+  </div>
+		
+		
+		
 		<!--Footer-->
 		<div class="footer-container">
 			<div class="footer">
@@ -319,10 +753,10 @@
 						</div>
 					</div>
 					<div id="media_image-3" class="widget widget_media_image vc_col-sm-3 wpb_column vc_column_container">
-						<img width="500" height="200" src="./Perfect Body Medical Center – Santa Marta Colombia_files/Logo-Perfect-body-blanco.png" class="image wp-image-4170  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" srcset="http://www.perfectbody.com.co/wp-content/uploads/2020/06/Logo-Perfect-body-blanco.png 500w, http://www.perfectbody.com.co/wp-content/uploads/2020/06/Logo-Perfect-body-blanco-300x120.png 300w" sizes="(max-width: 500px) 100vw, 500px">
+						<img width="500" height="200" src="./Logo-Perfect-body-blanco.png" class="image wp-image-4170  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" srcset="http://www.perfectbody.com.co/wp-content/uploads/2020/06/Logo-Perfect-body-blanco.png 500w, http://www.perfectbody.com.co/wp-content/uploads/2020/06/Logo-Perfect-body-blanco-300x120.png 300w" sizes="(max-width: 500px) 100vw, 500px">
 					</div>
 					<div id="media_image-2" class="widget widget_media_image vc_col-sm-3 wpb_column vc_column_container">
-						<img width="300" height="120" src="./Perfect Body Medical Center – Santa Marta Colombia_files/Supersalud-1-300x120.png" class="image wp-image-4169  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="http://www.perfectbody.com.co/wp-content/uploads/2020/06/Supersalud-1-300x120.png 300w, http://www.perfectbody.com.co/wp-content/uploads/2020/06/Supersalud-1.png 500w" sizes="(max-width: 300px) 100vw, 300px">
+						<img width="300" height="120" src="./Supersalud-1-300x120.png" class="image wp-image-4169  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="http://www.perfectbody.com.co/wp-content/uploads/2020/06/Supersalud-1-300x120.png 300w, http://www.perfectbody.com.co/wp-content/uploads/2020/06/Supersalud-1.png 500w" sizes="(max-width: 300px) 100vw, 300px">
 					</div>					
 				</div>
 			</div>
@@ -362,43 +796,90 @@
 	</div>
 	<a href="http://www.perfectbody.com.co/#top" class="scroll-top animated-element template-arrow-vertical-3" title="Scroll to top" style="animation-duration: 600ms; animation-delay: 0ms; transition-delay: 0ms;"></a>
 
-			
+	<!--boostrap scripts-->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>	
+	
+	
 	<script type="text/html" id="wpb-modifications"></script>
-	<link href="../resources/css//Perfect Body Medical Center – Santa Marta Colombia_files/css(3).css" rel="stylesheet" property="stylesheet" media="all" type="text/css">
+	<link href="../resources/css/css(3).css" rel="stylesheet" property="stylesheet" media="all" type="text/css">
 
 		
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/core.min.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/widget.min.js."></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/accordion.min.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/tabs.min.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/datepicker.min.js"></script>
+	<script type="text/javascript" src="../resources/js/core.min.js"></script>
+	<script type="text/javascript" src="../resources/js/widget.min.js."></script>
+	<script type="text/javascript" src="../resources/js/accordion.min.js"></script>
+	<script type="text/javascript" src="../resources/js/tabs.min.js"></script>
+	<script type="text/javascript" src="../resources/js/datepicker.min.js"></script>
 	<script type="text/javascript">
 	jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
 	</script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.imagesloaded-packed.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.ba-bbq.min.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.history.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.carouFredSel-6.2.1-packed.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.sliderControl.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.timeago.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.hint.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.isotope-packed.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.qtip.min.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.blockUI.js"></script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/jquery.parallax.min.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.imagesloaded-packed.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.ba-bbq.min.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.history.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.sliderControl.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.timeago.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.hint.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.isotope-packed.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.qtip.min.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.blockUI.js"></script>
+	<script type="text/javascript" src="../resources/js/jquery.parallax.min.js"></script>
 	<script type="text/javascript">
 	/* <![CDATA[ */
 	var config = [];
 	config = {"ajaxurl":"http:\/\/www.perfectbody.com.co\/wp-admin\/admin-ajax.php","themename":"medicenter","home_url":"http:\/\/www.perfectbody.com.co","is_rtl":0};;
 	/* ]]> */
 	</script>
-	<script type="text/javascript" src="../resources/css/Perfect Body Medical Center – Santa Marta Colombia_files/main.js"></script>
-	<script type="text/javascript" src="../resources/css//Perfect Body Medical Center – Santa Marta Colombia_files/odometer.min.js"></script>
-	<script type="text/javascript" src="../resources/css//Perfect Body Medical Center – Santa Marta Colombia_files/joinchat.min.js"></script>
-	<script type="text/javascript" src="../resources/css//Perfect Body Medical Center – Santa Marta Colombia_files/wp-embed.min.js"></script>
-	<script type="text/javascript" src="../resources/css//Perfect Body Medical Center – Santa Marta Colombia_files/js_composer_front.min.js"></script>
-	<script async="" type="text/javascript" src="../resources/css//Perfect Body Medical Center – Santa Marta Colombia_files/_Incapsula_Resource"></script>
+	<script type="text/javascript" src="../resources/js/main.js"></script>
+	<script type="text/javascript" src="../resources/js/odometer.min.js"></script>
+	<script type="text/javascript" src="../resources/js/joinchat.min.js"></script>
+	<script type="text/javascript" src="../resources/js/wp-embed.min.js"></script>
+	<script type="text/javascript" src="../resources/js/js_composer_front.min.js"></script>
+	<script async="" type="text/javascript" src="../resources/js/_Incapsula_Resource"></script>
 
-</body></html>
+</body>
+</html>
+
+<!-- script formulario
+	var d = new Date();
+
+// // $("input:radio[name='pregunta']:checked").val();
+
+// guardar todos los datos.
+$('#saveForm').click(() => {
+    var datas = {
+        tda: $('#tipoAtencion'),
+        fac: $('#fechaActual'),
+        fat: $('#fechaAtencion'),
+        man: $('#nombreCompleto'),
+        edd: $('#edadEncuestado'),
+        idn: $('#idIdentificacion'),
+        tel: $('#telefono'),
+        eps: $('#epsPaciente'),
+        p01: $('input:radio[name=pregunta1]:checked'),
+        p02: $('input:radio[name=pregunta2]:checked'),
+        p03: $('input:radio[name=pregunta3]:checked'),
+        p04: $('input:radio[name=pregunta4]:checked'),
+        p05: $('input:radio[name=pregunta5]:checked'),
+        p06: $('input:radio[name=pregunta6]:checked'),
+        p07: $('input:radio[name=pregunta7]:checked'),
+        p08: $('input:radio[name=pregunta8]:checked'),
+        p09: $('input:radio[name=pregunta9]:checked'),
+        p10: $('input:radio[name=pregunta10]:checked'),
+        p11: $('input:radio[name=pregunta11]:checked'),
+        p12: $('input:radio[name=pregunta12]:checked'),
+        p13: $('#pregunta13'),
+        p14: $('#pregunta14'),
+        com: $('#comentarios'),
+    }
+    console.log('ejecutando...')
+    console.log(datas)
+    console.log(d)
+});
+
+// $('#clearForm').click(()=>{
+//   alert('hola mundos')
+// });
+-->

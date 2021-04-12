@@ -11,11 +11,12 @@ class CreateEncuestaPreguntaEncuestaTable extends Migration
      *
      * @return void
      */
-    public function up()
-    {
+    public function up(){
         Schema::create('encuesta_pregunta_encuesta', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+
+
+
+           $table->timestamps();
         });
     }
 
