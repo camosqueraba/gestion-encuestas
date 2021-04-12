@@ -126,6 +126,7 @@
 							</a>
 						</li>
 						<!--
+              /*
 						<li id="menu-item-3995" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-3995">
 							<a href="http://www.perfectbody.com.co/la-institucion/">NUESTRA INSTITUCIÓN</a>
 						
@@ -135,7 +136,7 @@
 								NUESTRA INSTITUCIÓN 
 								<i class="material-icons material-icons.md-5">expand_more</i>
 							</a>
-							-->
+           
 							<ul class="sub-menu">
 								<li id="menu-item-4362" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4362"><a href="http://www.perfectbody.com.co/#" aria-current="page">Marco legal</a>
 								<ul class="sub-menu">
@@ -146,15 +147,17 @@
 								<li id="menu-item-4293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4293"><a href="http://www.perfectbody.com.co/vacantes/">Trabaje con nosotros</a></li>
 							</ul>
 						</li>
+             */
+            -->
 						<li id="menu-item-4071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4071">
 							<a href="http://www.perfectbody.com.co/servicios/">
-								SERVICIOS
+								ENCUESTAS DE SATISFACIÓN
 							</a>
 						</li>
 						<li id="menu-item-4001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4001">
 							<a href="http://www.perfectbody.com.co/informacion-paciente-y-familia/">
-								INFORMACIÓN PACIENTE Y FAMILIA 
-								<span class="material-icons material-icons.md-5">expand_more</span>
+								CUESTIONARIOS SST 
+								<!--/*<span class="material-icons material-icons.md-5">expand_more</span>*/-->
 							</a>
 							<ul class="sub-menu">
 								<li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4261">
@@ -164,14 +167,16 @@
 								</li>
 							</ul>
 						</li>
-						<li id="menu-item-3939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3939">
+						<!--/*
+            <li id="menu-item-3939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3939">
 							<a href="http://www.perfectbody.com.co/blog/">
 								NOVEDADES
 							</a>
-						</li>
+						</li>*/
+            -->
 						<li id="menu-item-3922" class="left-flyout menu-item menu-item-type-post_type menu-item-object-page menu-item-3922">
 							<a href="http://www.perfectbody.com.co/contacto/">
-								CONTACTO
+								ADMINISTRAR ENCUESTAS
 							</a>
 						</li>
 					</ul>
@@ -187,11 +192,13 @@
 									INICIO
 								</a>
 							</li>
+              
 							<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-3995">
 								<a href="http://www.perfectbody.com.co/la-institucion/">
-									NUESTRA INSTITUCIÓN
+									ENCUESTAS DE SATISFACION
 								</a>
-								<a href="http://www.perfectbody.com.co/#" class="template-arrow-menu"></a>
+								<!--
+                <a href="http://www.perfectbody.com.co/#" class="template-arrow-menu"></a>
 								<ul class="sub-menu">
 									<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-4362"><a href="http://www.perfectbody.com.co/#" aria-current="page">Marco legal</a>
 										<ul class="sub-menu">
@@ -205,7 +212,34 @@
 										</a>
 									</li>
 								</ul>
+              -->
 							</li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-3995">
+								<a href="http://www.perfectbody.com.co/la-institucion/">
+									CUESTIONARIOS SST
+								</a>
+								<!--
+                <a href="http://www.perfectbody.com.co/#" class="template-arrow-menu"></a>
+								<ul class="sub-menu">
+									<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-4362"><a href="http://www.perfectbody.com.co/#" aria-current="page">Marco legal</a>
+										<ul class="sub-menu">
+											<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4361">
+                        <a href="https://drive.google.com/drive/folders/1k4Fs7dxleOv89UiUd29qqSjPYUMo-2O3?usp=sharing">
+                          Actas Copasst
+                        </a>
+                      </li>
+											<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4363"><a href="https://drive.google.com/drive/folders/1pEoKvIP8MGGIm8WfdSxF8bTAIg0kQnOE?usp=sharing">Balance general y Estado de resultados</a></li>
+										</ul>
+									</li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4293">
+										<a href="http://www.perfectbody.com.co/vacantes/">
+											Trabaje con nosotros
+										</a>
+									</li>
+								</ul>
+              -->
+							</li>
+              <!--/*
 							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4071">
 								<a href="http://www.perfectbody.com.co/servicios/">SERVICIOS</a>
 							</li>
@@ -219,8 +253,9 @@
 							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3939">
 								<a href="http://www.perfectbody.com.co/blog/">NOVEDADES</a>
 							</li>
+              */-->
 							<li class="left-flyout menu-item menu-item-type-post_type menu-item-object-page menu-item-3922">
-								<a href="http://www.perfectbody.com.co/contacto/">CONTACTO</a>
+								<a href="http://www.perfectbody.com.co/contacto/">ADMINISTRAR</a>
 							</li>
 						</ul>
 					</nav>
@@ -232,434 +267,436 @@
 		<!--Encuesta-->
 		
 		<br />
-  <div class="container">
-    <section class="row">
-      <div class="col-md-12">
-        <h1 class="text-center">Formato de Encuesta de Satisfacción.</h1>
-        <p class="text-center">Clinica Perfect Body Medical Center.</p>
-      </div>
-    </section>
-    <hr><br />
-    <section class="row">
-      <section class="col-md-12">
-        <h3>Datos basicos</h3>
-        <p></p>
-      </section>
-    </section>
-    <section class="row">
-      <section class="col-md-12">
-        <section class="row">
-          <div class="col-md-4">
-            <label for="tipoAtencion">Tipo de Atención: *</label>
-            <select class="form-control" id="tipoAtencion">
-            <option value="ce">Consulta Externa</option>
-            <option value="farm">Farmacia</option>
-            <option value="hosp">Hospitalización</option>
-            <option value="pyp">Promoción y Prevención</option>
-            <option value="rx">Rayos X</option>
-            <option value="urge">Consulta Prioritaria</option>
-          </select>
-          </div>
-          <div class="col-md-4">
-            <div class="form-group">
-              <label for="fechaActual">Fecha Actual: *</label>
-              <input type="date" class="form-control" id="fechaActual" required>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="form-group">
-              <label for="fechaActencion">Fecha Atención: *</label>
-              <input type="date" class="form-control" id="fechaAtencion" required>
-            </div>
-          </div>
-        </section>
-        <section class="row">
-          <div class="col-md-8">
-            <div class="form-group">
-              <label for="nombreCompleto">Nombre Compelto: *</label>
-              <input type="text" class="form-control" id="nombreCompleto" maxlength="128" placeholder="Nombre Compelto" required>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="form_group">
-              <label for="edadEncuestado">Edad: *</label>
-              <input type="number" class="form-control" id="edadEncuestado" placeholder="Edad" maxlength="3" required/>
-            </div>
-          </div>
-        </section>
-        <section class="row">
-          <div class="col-md-4">
-            <div class="form-group">
-              <label for="idIdentificacion">Identificación: *</label>
-              <input type="number" id="idIdentificacion" class="form-control" placeholder="Numero de Identificación" maxlength="15" required/>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <label for="telefono">Telefono: *</label>
-            <input type="text" class="form-control" id="telefono" placeholder="Numero Telefonico" maxlength="12" required/>
-          </div>
-          <div class="col-md-4">
-            <label for="epsPaciente">EPS: *</label>
-            <input type="text" class="form-control" id="epsPaciente" placeholder "EPS del Paciente" required />
-          </div>
-        </section>
-      </section>
-    </section>
-    <hr />
-
-    <!--  Servicios  -->
-    <section class="row">
-      <div class="col-md-12">
-        <h3>Servicio.</h3>
-        <p></p>
-      </div>
-    </section>
-    <!--  PREGUNTA 1  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>1- ¿"Sabe usted que tiene derechos y deberes en salud?</p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section>
-    <!--  PREGUNTA 2  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>2- ¿A su llegada a la clinica los tramites de ingreso y atención fueron claros? </p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section>
-    <!--  PREGUNTA 3  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>3- ¿Al ingreso la clinica encontró información visible que le indique el sitio donde va a ser atendido? </p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section>
-    <!--  PREGUNTA 4  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>4- ¿Sabe usted en que horario solicitar una cita y cuál es el número telefónico?</p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section><br>
-    <hr>
-    <!--  Durante la Atención  -->
-    <section class="row">
-      <div class="col-md-12">
-        <h3>Durante la Atención.</h3>
-        <p></p>
-      </div>
-    </section>
-    <!--  PREGUNTA 5  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>5- ¿Está satisfecho con el tiempo que tuvo que esperar para ser atendido?</p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section>
-    <!--  PREGUNTA 6  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>6- ¿El profesional le pregunto el motivo de la consulta, sus enfermedades anteriores y familiares?</p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section>
-    <!--  PREGUNTA 7  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>7- ¿Considera que lo atendieron en condiciones de privacidad?</p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section>
-    <!--  PREGUNTA 8  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>8- ¿El profesional que lo atendió se presentó por el nombre? </p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section>
-    <!--  PREGUNTA 9  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>9- ¿Piensa que fue atendido amablemente en esta clinica?</p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section><br />
-    <hr />
-    <!--  Durante la Atención  -->
-    <section class="row">
-      <div class="col-md-12">
-        <h3>Salida del usuario.</h3>
-        <p></p>
-      </div>
-    </section>
-    <!--  PREGUNTA 10  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>10- ¿A usted y/o a su familia le dieron las recomendaciones sobre cómo cuidar su salud en casa?</p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section>
-    <!--  PREGUNTA 11  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>11- ¿Las áreas del servicio donde fue atendido, se encontraban limpias, comodas y agradables?</p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section>
-    <!--  PREGUNTA 12  -->
-    <section class="row">
-      <div class="col-md-6">
-        <p>12- ¿Si se requiere volveria a utilizar nuestros servicios?</p>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-      </label>
-      </div>
-      <div class="col-md-2">
-        <label class="radio">
-        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-      </label>
-      </div>
-    </section>
-
-
-
-
-
-    <br />
-    <hr />
-    <!--  Satisfacción General  -->
-    <section class="row">
-      <div class="col-md-12">
-        <h3>Satisfacción General.</h3>
-        <p></p>
-      </div>
-    </section>
-    <!--  PREGUNTA 13  -->
-    <section class="row">
-      <div class="col-md-12">
-        <section class="row">
-          <div class="col-md-8">
-            <p>13- ¿Cómo calificaría su experiencia global respecto a los servicios de salud que ha recibido a través de la clinica?</p>
-          </div>
-          <div class="col-md-4">
-            <select class="form-control" id="pregunta13">
-            <option value="5">Muy Buena</option>
-            <option value="4">Buena</option>
-            <option value="3">Regular</option>
-            <option value="2">Mala</option>
-            <option value="1">Muy Mala</option>
-            <option value="0">No Responde</option>
-          </select>
-          </div>
-        </section>
-      </div>
-    </section><br />
-    <!--  PREGUNTA 14  -->
-    <section class="row">
-      <div class="col-md-12">
-        <section class="row">
-          <div class="col-md-8">
-            <p>14- ¿Recomendaria a sus familiares y amigos esta clinica?</p>
-          </div>
-          <div class="col-md-4">
-            <select class="form-control" id="pregunta14">
-            <option value="5">Muy Buena</option>
-            <option value="4">Buena</option>
-            <option value="3">Regular</option>
-            <option value="2">Mala</option>
-            <option value="1">Muy Mala</option>
-            <option value="0">No Responde</option>
-          </select>
-          </div>
-        </section>
-      </div>
-    </section><br />
-    <hr />
-
-    <!--  Comentarios  -->
-    <section class="row">
-      <div class="col-md-12">
-        <h3>Comentarios.</h3>
-        <p></p>
-      </div>
-    </section>
-    <section class="row">
-      <div class="col-md-12">
-        <div class="form-group">
-          <label for="comment">Comentarios:</label>
-          <textarea class="form-control" rows="6" id="comentarios"></textarea>
+    <div class="container">
+      <section class="row">
+        <div class="col-md-12">
+          <h2 class="text-center">FORMATO ENCUESTA DE SATISFACIÓN CONSULTA PRIORITARIA</h2>
+          <p class="text-center">Estimado Usuario<br>          
+            Para Perfect Body Medical Center, sus opiniones y sugerencias son de valiosa importancia para la
+            mejora continua. Permitanos conocer su percepción para la toma de decisiones que nos permita
+            prestarle cada vez, un mejor servicio.</p>
         </div>
-      </div>
-    </section>
-    <section class="row">
-      <div class="col-md-12">
-        <button type="button" class="btn btn-info" id="saveForm" onclick="saveForm">Guardar Encuesta</button>
-        <button type="button" class="btn btn-danger" id="clearForm">Limpiar formulario</button>
-      </div>
-    </section>
-  </div>
+      </section>
+      <hr><br />
+      <section class="row">
+        <section class="col-md-12">
+          <h3>Datos basicos</h3>
+          <p></p>
+        </section>
+      </section>
+      <section class="row">
+        <section class="col-md-12">
+          <section class="row">
+            <div class="col-md-8">
+              <div class="form-group">
+                <label for="nombreCompleto">Nombre del Paciente:*</label>
+                <input type="text" class="form-control" id="nombreCompleto" maxlength="128" placeholder="Nombre del Paciente" required>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="idIdentificacion">Identificación:*</label>
+                <input type="number" id="idIdentificacion" class="form-control" placeholder="Numero de Identificación" maxlength="15" required/>
+              </div>
+            </div>
+          </section>
+
+          <section class="row">
+            <div class="col-md-8">
+              <div class="form-group">
+                <label for="email">Correo Electronico:*</label>
+                <input type="email" class="form-control" id="email" maxlength="128" placeholder="Correo Electronico" required>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="telefono">Telefono/Celular:*</label>
+              <input type="text" class="form-control" id="telefono" placeholder="Telefono/Celular" maxlength="30" required/>
+            </div>
+            
+          </section>
+          <section class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="fechaEncuesta">Fecha de Encuesta: *</label>
+                <input type="date" class="form-control" id="fechaEncuesta" required>
+              </div>
+            </div>
+          
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="Numero de Habitación">Numero de Habitacion: *</label>
+                <input type="number" class="form-control" id="numeroHabitacion" required>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="entidadPaciente">Entidad: *</label>
+                <select class="form-control" id="entidad">
+                  <option value="ce">Consulta Externa</option>
+                  <option value="farm">Farmacia</option>
+                  <option value="hosp">Hospitalización</option>
+                  <option value="pyp">Promoción y Prevención</option>
+                  <option value="rx">Rayos X</option>
+                  <option value="urge">Consulta Prioritaria</option>
+                </select>
+            </div>
+          </section>
+        </section>
+      </section>
+      <hr />
+
+      <!--  Servicios  -->
+      <section class="row">
+        <div class="col-md-12">
+          <h3>Servicio.</h3>
+          <p></p>
+        </div>
+      </section>
+      <!--  PREGUNTA 1  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>1- ¿Sabe usted que tiene derechos y deberes en salud?</p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section>
+      <!--  PREGUNTA 2  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>2- ¿A su llegada a la clinica los tramites de ingreso y atención fueron claros? </p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section>
+      <!--  PREGUNTA 3  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>3- ¿Al ingreso la clinica encontró información visible que le indique el sitio donde va a ser atendido? </p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section>
+      <!--  PREGUNTA 4  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>4- ¿Sabe usted en que horario solicitar una cita y cuál es el número telefónico?</p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section><br>
+      <hr>
+      <!--  Durante la Atención  -->
+      <section class="row">
+        <div class="col-md-12">
+          <h3>Durante la Atención.</h3>
+          <p></p>
+        </div>
+      </section>
+      <!--  PREGUNTA 5  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>5- ¿Está satisfecho con el tiempo que tuvo que esperar para ser atendido?</p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section>
+      <!--  PREGUNTA 6  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>6- ¿El profesional le pregunto el motivo de la consulta, sus enfermedades anteriores y familiares?</p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section>
+      <!--  PREGUNTA 7  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>7- ¿Considera que lo atendieron en condiciones de privacidad?</p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section>
+      <!--  PREGUNTA 8  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>8- ¿El profesional que lo atendió se presentó por el nombre? </p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section>
+      <!--  PREGUNTA 9  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>9- ¿Piensa que fue atendido amablemente en esta clinica?</p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section><br />
+      <hr />
+      <!--  Durante la Atención  -->
+      <section class="row">
+        <div class="col-md-12">
+          <h3>Salida del usuario.</h3>
+          <p></p>
+        </div>
+      </section>
+      <!--  PREGUNTA 10  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>10- ¿A usted y/o a su familia le dieron las recomendaciones sobre cómo cuidar su salud en casa?</p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section>
+      <!--  PREGUNTA 11  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>11- ¿Las áreas del servicio donde fue atendido, se encontraban limpias, comodas y agradables?</p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section>
+      <!--  PREGUNTA 12  -->
+      <section class="row">
+        <div class="col-md-6">
+          <p>12- ¿Si se requiere volveria a utilizar nuestros servicios?</p>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+        </label>
+        </div>
+        <div class="col-md-2">
+          <label class="radio">
+          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+        </label>
+        </div>
+      </section>
+
+
+
+
+
+      <br />
+      <hr />
+      <!--  Satisfacción General  -->
+      <section class="row">
+        <div class="col-md-12">
+          <h3>Satisfacción General.</h3>
+          <p></p>
+        </div>
+      </section>
+      <!--  PREGUNTA 13  -->
+      <section class="row">
+        <div class="col-md-12">
+          <section class="row">
+            <div class="col-md-8">
+              <p>13- ¿Cómo calificaría su experiencia global respecto a los servicios de salud que ha recibido a través de la clinica?</p>
+            </div>
+            <div class="col-md-4">
+              <select class="form-control" id="pregunta13">
+              <option value="5">Muy Buena</option>
+              <option value="4">Buena</option>
+              <option value="3">Regular</option>
+              <option value="2">Mala</option>
+              <option value="1">Muy Mala</option>
+              <option value="0">No Responde</option>
+            </select>
+            </div>
+          </section>
+        </div>
+      </section><br />
+      <!--  PREGUNTA 14  -->
+      <section class="row">
+        <div class="col-md-12">
+          <section class="row">
+            <div class="col-md-8">
+              <p>14- ¿Recomendaria a sus familiares y amigos esta clinica?</p>
+            </div>
+            <div class="col-md-4">
+              <select class="form-control" id="pregunta14">
+              <option value="5">Muy Buena</option>
+              <option value="4">Buena</option>
+              <option value="3">Regular</option>
+              <option value="2">Mala</option>
+              <option value="1">Muy Mala</option>
+              <option value="0">No Responde</option>
+            </select>
+            </div>
+          </section>
+        </div>
+      </section><br />
+      <hr />
+
+      <!--  Comentarios  -->
+      <section class="row">
+        <div class="col-md-12">
+          <h3>Comentarios.</h3>
+          <p></p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="comment">Comentarios:</label>
+            <textarea class="form-control" rows="6" id="comentarios"></textarea>
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-md-12">
+          <button type="button" class="btn btn-info" id="saveForm" onclick="saveForm">Guardar Encuesta</button>
+          <button type="button" class="btn btn-danger" id="clearForm">Limpiar formulario</button>
+        </div>
+      </section>
+    </div>
 		
 		
 		

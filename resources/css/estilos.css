@@ -47,7 +47,7 @@ li {
 }
 
 /* Rules for sizing the icon. */
-.material-icons.md-5 { font-size: 3px;
+.material-icons.md-5 { font-size: 5px;
 margin-top:  50px; }
 .material-icons.md-14 { font-size: 14px; }
 .material-icons.md-16 { font-size: 16px; }
@@ -86,4 +86,9 @@ a:hover {
     color: #777777;
     background-color: transparent;
     
+  }
+
+  .container{
+
+    width: 70%;
   }
