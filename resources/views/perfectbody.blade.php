@@ -236,7 +236,7 @@
     <section class="row">
       <div class="col-md-12">
         <h1 class="text-center">Formato de Encuesta de Satisfacción.</h1>
-        <p class="text-center">ESE Hospital San Rafael de Girardota.</p>
+        <p class="text-center">Clinica Perfect Body Medical Center.</p>
       </div>
     </section>
     <hr><br />
@@ -254,13 +254,10 @@
             <select class="form-control" id="tipoAtencion">
             <option value="ce">Consulta Externa</option>
             <option value="farm">Farmacia</option>
-            <option value="fisi">Fisioterapia</option>
-            <option value="fo">Fo</option>
-            <option value="hosp">Hospitalizació</option>
-            <option value="odon">Odontologia</option>
+            <option value="hosp">Hospitalización</option>
             <option value="pyp">Promoción y Prevención</option>
             <option value="rx">Rayos X</option>
-            <option value="urge">Urgencias</option>
+            <option value="urge">Consulta Prioritaria</option>
           </select>
           </div>
           <div class="col-md-4">
@@ -341,7 +338,7 @@
     <!--  PREGUNTA 2  -->
     <section class="row">
       <div class="col-md-6">
-        <p>2- ¿A su llegada al hospital los tramites de ingreso y atención fueron claros? </p>
+        <p>2- ¿A su llegada a la clinica los tramites de ingreso y atención fueron claros? </p>
       </div>
       <div class="col-md-2">
         <label class="radio">
@@ -362,7 +359,7 @@
     <!--  PREGUNTA 3  -->
     <section class="row">
       <div class="col-md-6">
-        <p>3- ¿Al ingreso al hospital encontró información visible que le indique el sitio donde va a ser atendido? </p>
+        <p>3- ¿Al ingreso la clinica encontró información visible que le indique el sitio donde va a ser atendido? </p>
       </div>
       <div class="col-md-2">
         <label class="radio">
@@ -496,7 +493,7 @@
     <!--  PREGUNTA 9  -->
     <section class="row">
       <div class="col-md-6">
-        <p>9- ¿Piensa que fue atendido amablemente en este hospital?</p>
+        <p>9- ¿Piensa que fue atendido amablemente en esta clinica?</p>
       </div>
       <div class="col-md-2">
         <label class="radio">
@@ -604,7 +601,7 @@
       <div class="col-md-12">
         <section class="row">
           <div class="col-md-8">
-            <p>13- ¿Cómo calificaría su experiencia global respecto a los servicios de salud que ha recibido a través del Hospital?</p>
+            <p>13- ¿Cómo calificaría su experiencia global respecto a los servicios de salud que ha recibido a través de la clinica?</p>
           </div>
           <div class="col-md-4">
             <select class="form-control" id="pregunta13">
@@ -624,7 +621,7 @@
       <div class="col-md-12">
         <section class="row">
           <div class="col-md-8">
-            <p>14- ¿Recomendaria a sus familiares y amigos este Hospital?</p>
+            <p>14- ¿Recomendaria a sus familiares y amigos esta clinica?</p>
           </div>
           <div class="col-md-4">
             <select class="form-control" id="pregunta14">
