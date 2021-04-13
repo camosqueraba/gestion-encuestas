@@ -351,13 +351,140 @@
             POR FAVOR SELECCIONE UNA OPCIÓN SEGUN SU PERCEPCIÓN DEL SERVICIO RECIBIDO
           </p>
           <div class="row">
-            <div id="preguntas_estandar" class="col-md-4 ">
+            <div id="preguntas_estandar" class="col-md-6 ">
               <!--<div class="items_preguntas_estandar">-->
                 <p class="">¿Como califica nuestras instalaciones?</p>
               <!--</div>-->
             </div>
             <div class="col-md-4 items_preguntas_estandar">
               <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo califica el trato recibido por parte del personal Administrativo?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo califica la atención del equipo de enfermeras?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo fue aseo de las instalaciones?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo califica el trato recibido por parte del personal Administrativo?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo califica información sobre los Apoyos Diagnosticos * ?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo califica la atención durante el traslado asistencial (ambulancia)?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo fue la información que recibió de normas y servicios?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
                 <option value="5">Muy Bueno</option>
                 <option value="4">Bueno</option>
                 <option value="3">Regular</option>
