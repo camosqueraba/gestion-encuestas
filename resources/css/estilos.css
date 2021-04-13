@@ -92,3 +92,23 @@ a:hover {
 
     width: 70%;
   }
+
+  .preguntas_estandar{
+      float: left;
+  }
+
+  .items_preguntas_estandar{
+    display: flex;
+    align-items: center;
+    /*display: inline;
+    float: left;*/
+
+  }
+  .opciones_desplegables{
+      box-align: center;
+  }
+  .texto-parrafo{
+
+    text-align:justify; 
+    text-justify:inter-word;
+  }

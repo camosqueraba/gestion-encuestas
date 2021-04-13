@@ -267,11 +267,11 @@
 		<!--Encuesta-->
 		
 		<br />
-    <div class="container">
-      <section class="row">
+    <div id="contenedor-encuestas" class="container">
+      <section id="encabezado-encuesta" class="row">
         <div class="col-md-12">
           <h2 class="text-center">FORMATO ENCUESTA DE SATISFACIÓN CONSULTA PRIORITARIA</h2>
-          <p class="text-center">Estimado Usuario<br>          
+          <p class="texto-parrafo">Estimado Usuario<br>          
             Para Perfect Body Medical Center, sus opiniones y sugerencias son de valiosa importancia para la
             mejora continua. Permitanos conocer su percepción para la toma de decisiones que nos permita
             prestarle cada vez, un mejor servicio.</p>
@@ -324,7 +324,7 @@
           
             <div class="col-md-4">
               <div class="form-group">
-                <label for="Numero de Habitación">Numero de Habitacion: *</label>
+                <label for="NumeroHabitación">Numero de Habitacion: *</label>
                 <input type="number" class="form-control" id="numeroHabitacion" required>
               </div>
             </div>
@@ -345,6 +345,31 @@
       <hr />
 
       <!--  Servicios  -->
+      <section id="seccion_nivel_estandar" class="row">
+        <div class="col-md-12">
+          <p>
+            POR FAVOR SELECCIONE UNA OPCIÓN SEGUN SU PERCEPCIÓN DEL SERVICIO RECIBIDO
+          </p>
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-4 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Como califica nuestras instalaciones?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      
       <section class="row">
         <div class="col-md-12">
           <h3>Servicio.</h3>
