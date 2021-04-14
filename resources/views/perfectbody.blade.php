@@ -23,8 +23,9 @@
 	<link rel="dns-prefetch" href="http://s.w.org/">
 	
 	<!--boostrap styles-->
+  
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
+  
 	<link rel="stylesheet" id="wp-block-library-css" href="../resources/css/style.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="wp-block-library-theme-css" href="../resources/css/theme.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="rs-plugin-settings-css" href="../resources/css/rs6.css" type="text/css" media="all">
@@ -198,7 +199,7 @@
 									ENCUESTAS DE SATISFACION
 								</a>
 								<!--
-                <a href="http://www.perfectbody.com.co/#" class="template-arrow-menu"></a>
+								                <a href="http://www.perfectbody.com.co/#" class="template-arrow-menu"></a>
 								<ul class="sub-menu">
 									<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-4362"><a href="http://www.perfectbody.com.co/#" aria-current="page">Marco legal</a>
 										<ul class="sub-menu">
@@ -296,7 +297,7 @@
             <div class="col-md-4">
               <div class="form-group">
                 <label for="idIdentificacion">Identificación:*</label>
-                <input type="number" id="idIdentificacion" class="form-control" placeholder="Numero de Identificación" maxlength="15" required/>
+                <input type="number" id="identificacion" class="form-control" placeholder="Numero de Identificación" maxlength="15" required/>
               </div>
             </div>
           </section>
@@ -328,6 +329,7 @@
                 <input type="number" class="form-control" id="numeroHabitacion" required>
               </div>
             </div>
+            <!--
             <div class="col-md-4">
               <label for="entidadPaciente">Entidad: *</label>
                 <select class="form-control" id="entidad">
@@ -339,6 +341,7 @@
                   <option value="urge">Consulta Prioritaria</option>
                 </select>
             </div>
+            -->
           </section>
         </section>
       </section>
@@ -347,9 +350,9 @@
       <!--  Servicios  -->
       <section id="seccion_nivel_estandar" class="row">
         <div class="col-md-12">
-          <p>
-            POR FAVOR SELECCIONE UNA OPCIÓN SEGUN SU PERCEPCIÓN DEL SERVICIO RECIBIDO
-          </p>
+          <h4>
+            POR FAVOR SELECCIONE UNA OPCIÓN SEGÚN SU PERCEPCIÓN DEL SERVICIO RECIBIDO
+          </h4>
           <div class="row">
             <div id="preguntas_estandar" class="col-md-6 ">
               <!--<div class="items_preguntas_estandar">-->
@@ -505,339 +508,149 @@
       </section>
       <!--  PREGUNTA 1  -->
       <section class="row">
+        <div class="col-md-4">
+          <p>¿La Atencion Medica fue realizada a Tiempo?</p>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">Si
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
+          </label>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">No
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
+          </label>
+        </div>
         <div class="col-md-6">
-          <p>1- ¿Sabe usted que tiene derechos y deberes en salud?</p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
+          <label class="radio">¿por qué?</label>
+          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
         </div>
       </section>
       <!--  PREGUNTA 2  -->
       <section class="row">
+        <div class="col-md-4">
+          <p>¿Recomendaria a PERFECT BODY MEDICAL CENTER a sus familiares y amigos?</p>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">Si
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
+          </label>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">No
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
+          </label>
+        </div>
         <div class="col-md-6">
-          <p>2- ¿A su llegada a la clinica los tramites de ingreso y atención fueron claros? </p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
+          <label class="radio">¿por qué?
+          
+          </label>
+          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
         </div>
       </section>
       <!--  PREGUNTA 3  -->
       <section class="row">
+        <div class="col-md-4">
+          <p>¿Volvería usted a utilizar los servicios de PERFECT BODY MEDICAL CENTER?</p>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">Si
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
+          </label>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">No
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
+          </label>
+        </div>
         <div class="col-md-6">
-          <p>3- ¿Al ingreso la clinica encontró información visible que le indique el sitio donde va a ser atendido? </p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
+          <label class="radio">¿por qué?
+          
+          </label>
+          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
         </div>
       </section>
       <!--  PREGUNTA 4  -->
       <section class="row">
+        <div class="col-md-4">
+          <p>¿Desearia usted destacar a algun funcionario por su buen servicio?</p>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">Si
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
+          </label>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">No
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
+          </label>
+        </div>
         <div class="col-md-6">
-          <p>4- ¿Sabe usted en que horario solicitar una cita y cuál es el número telefónico?</p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
-        </div>
-      </section><br>
-      <hr>
-      <!--  Durante la Atención  -->
-      <section class="row">
-        <div class="col-md-12">
-          <h3>Durante la Atención.</h3>
-          <p></p>
+          <label class="radio">¿por qué?
+          
+          </label>
+          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
         </div>
       </section>
       <!--  PREGUNTA 5  -->
-      <section class="row">
-        <div class="col-md-6">
-          <p>5- ¿Está satisfecho con el tiempo que tuvo que esperar para ser atendido?</p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
-        </div>
-      </section>
+      
       <!--  PREGUNTA 6  -->
       <section class="row">
+        <div class="col-md-4">
+          <p>¿Desearia usted destacar a algun funcionario por su mal servicio?</p>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">Si
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
+          </label>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">No
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
+          </label>
+        </div>
         <div class="col-md-6">
-          <p>6- ¿El profesional le pregunto el motivo de la consulta, sus enfermedades anteriores y familiares?</p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
+          <label class="radio">¿por qué?
+          
+          </label>
+          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
         </div>
       </section>
-      <!--  PREGUNTA 7  -->
       <section class="row">
+        <div class="col-md-4">
+          <p>¿Está usted satisfecho con nuestro servicio?</p>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">Si
+          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
+          </label>
+        </div>
+        <div class="col-md-1">
+          <label class="radio">No
+          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
+          </label>
+        </div>
         <div class="col-md-6">
-          <p>7- ¿Considera que lo atendieron en condiciones de privacidad?</p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
+          <label class="radio">¿por qué?
+          
+          </label>
+          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
         </div>
       </section>
-      <!--  PREGUNTA 8  -->
-      <section class="row">
-        <div class="col-md-6">
-          <p>8- ¿El profesional que lo atendió se presentó por el nombre? </p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
-        </div>
-      </section>
-      <!--  PREGUNTA 9  -->
-      <section class="row">
-        <div class="col-md-6">
-          <p>9- ¿Piensa que fue atendido amablemente en esta clinica?</p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
-        </div>
-      </section><br />
-      <hr />
-      <!--  Durante la Atención  -->
-      <section class="row">
-        <div class="col-md-12">
-          <h3>Salida del usuario.</h3>
-          <p></p>
-        </div>
-      </section>
-      <!--  PREGUNTA 10  -->
-      <section class="row">
-        <div class="col-md-6">
-          <p>10- ¿A usted y/o a su familia le dieron las recomendaciones sobre cómo cuidar su salud en casa?</p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
-        </div>
-      </section>
-      <!--  PREGUNTA 11  -->
-      <section class="row">
-        <div class="col-md-6">
-          <p>11- ¿Las áreas del servicio donde fue atendido, se encontraban limpias, comodas y agradables?</p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
-        </div>
-      </section>
-      <!--  PREGUNTA 12  -->
-      <section class="row">
-        <div class="col-md-6">
-          <p>12- ¿Si se requiere volveria a utilizar nuestros servicios?</p>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
-        </label>
-        </div>
-        <div class="col-md-2">
-          <label class="radio">
-          <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
-        </label>
-        </div>
-      </section>
-
-
-
-
-
+      
       <br />
       <hr />
-      <!--  Satisfacción General  -->
-      <section class="row">
-        <div class="col-md-12">
-          <h3>Satisfacción General.</h3>
-          <p></p>
-        </div>
-      </section>
-      <!--  PREGUNTA 13  -->
-      <section class="row">
-        <div class="col-md-12">
-          <section class="row">
-            <div class="col-md-8">
-              <p>13- ¿Cómo calificaría su experiencia global respecto a los servicios de salud que ha recibido a través de la clinica?</p>
-            </div>
-            <div class="col-md-4">
-              <select class="form-control" id="pregunta13">
-              <option value="5">Muy Buena</option>
-              <option value="4">Buena</option>
-              <option value="3">Regular</option>
-              <option value="2">Mala</option>
-              <option value="1">Muy Mala</option>
-              <option value="0">No Responde</option>
-            </select>
-            </div>
-          </section>
-        </div>
-      </section><br />
-      <!--  PREGUNTA 14  -->
-      <section class="row">
-        <div class="col-md-12">
-          <section class="row">
-            <div class="col-md-8">
-              <p>14- ¿Recomendaria a sus familiares y amigos esta clinica?</p>
-            </div>
-            <div class="col-md-4">
-              <select class="form-control" id="pregunta14">
-              <option value="5">Muy Buena</option>
-              <option value="4">Buena</option>
-              <option value="3">Regular</option>
-              <option value="2">Mala</option>
-              <option value="1">Muy Mala</option>
-              <option value="0">No Responde</option>
-            </select>
-            </div>
-          </section>
-        </div>
-      </section><br />
-      <hr />
-
       <!--  Comentarios  -->
       <section class="row">
         <div class="col-md-12">
-          <h3>Comentarios.</h3>
+          <h3>Sugerencias y recomendaciones:</h3>
           <p></p>
         </div>
       </section>
       <section class="row">
         <div class="col-md-12">
           <div class="form-group">
-            <label for="comment">Comentarios:</label>
+            <label for="comment">Sugerencias y recomendaciones:</label>
             <textarea class="form-control" rows="6" id="comentarios"></textarea>
           </div>
         </div>
@@ -852,178 +665,180 @@
 		
 		
 		
-		<!--Footer-->
-		<div class="footer-container">
-			<div class="footer">
-				<ul class="footer-banner-box-container clearfix">
-					<li class="footer-banner-box features-map animated-element animation-fadeIn duration-500">
-						<h2>¿Cómo llegar?</h2>
-						<p class="content-margin">	
-							<a href="https://g.page/ClinicaPerfectBody?share" target="_blank">Visítanos</a>
-						</p>
-					</li>
-					<li class="footer-banner-box features-phone animated-element animation-slideRight duration-800 delay-250">
-						<h2>Agende su cita médica!</h2>
-						<p class="content-margin">	
-							<a href="tel:(315)8707898#">(315) 8707898</a>
-						</p>
-					</li>
-					<li class="footer-banner-box features-email animated-element animation-slideRight200 duration-800 delay-500">
-						<h2>Envíenos sus comentarios</h2>
-						<p class="content-margin">	
-							<a href="mailto:info@perfectbody.com.co">Contáctenos via Email</a>
-						</p>
-					</li>
-				</ul>
-				<div class="footer-box-container vc_row wpb_row vc_row-fluid clearfix">
-					<div id="medicenter_contact_details-2" class="widget mc_contact_details_widget vc_col-sm-3 wpb_column vc_column_container"><h3 	       class="box-header animation-slide animation-slide">Datos de contacto</h3>
-						<ul class="contact-data">
-							<li class="clearfix template-location"><div class="value">Carrera 20 # 15 - 110<br>Santa Marta, Magdalena 47001</div></li>
-							<li class="clearfix template-phone"><div class="value"><a href="tel:(5)4237101">(5) 4237101</a><br><a href="tel:(315) 8707898">(315) 8707898</a><br></div></li>
-							<li class="clearfix template-mail"><div class="value"><a href="mailto:info@perfectbody.com.co">info@perfectbody.com.co</a></div></li>
+	<!--Footer-->
+	<div class="footer-container">
+		<div class="footer">
+			<ul class="footer-banner-box-container clearfix">
+				<li class="footer-banner-box features-map animated-element animation-fadeIn duration-500">
+					<h2>¿Cómo llegar?</h2>
+					<p class="content-margin">	
+						<a href="https://g.page/ClinicaPerfectBody?share" target="_blank">Visítanos</a>
+					</p>
+				</li>
+				<li class="footer-banner-box features-phone animated-element animation-slideRight duration-800 delay-250">
+					<h2>Agende su cita médica!</h2>
+					<p class="content-margin">	
+						<a href="tel:(315)8707898#">(315) 8707898</a>
+					</p>
+				</li>
+				<li class="footer-banner-box features-email animated-element animation-slideRight200 duration-800 delay-500">
+					<h2>Envíenos sus comentarios</h2>
+					<p class="content-margin">	
+						<a href="mailto:info@perfectbody.com.co">Contáctenos via Email</a>
+					</p>
+				</li>
+			</ul>
+			<div class="footer-box-container vc_row wpb_row vc_row-fluid clearfix">
+				<div id="medicenter_contact_details-2" class="widget mc_contact_details_widget vc_col-sm-3 wpb_column vc_column_container"><h3 	       class="box-header animation-slide animation-slide">Datos de contacto</h3>
+					<ul class="contact-data">
+						<li class="clearfix template-location"><div class="value">Carrera 20 # 15 - 110<br>Santa Marta, Magdalena 47001</div></li>
+						<li class="clearfix template-phone"><div class="value"><a href="tel:(5)4237101">(5) 4237101</a><br><a href="tel:(315) 8707898">(315) 8707898</a><br></div></li>
+						<li class="clearfix template-mail"><div class="value"><a href="mailto:info@perfectbody.com.co">info@perfectbody.com.co</a></div></li>
+					</ul>
+				</div>
+				<div id="nav_menu-2" class="widget widget_nav_menu vc_col-sm-3 wpb_column vc_column_container">
+					<h3 class="box-header animation-slide">Otros Links</h3>
+					<div class="menu-additional-links-container">
+						<ul id="menu-additional-links" class="menu">
+							<li id="menu-item-3934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3934">
+								<a href="http://www.perfectbody.com.co/la-institucion/">La institución</a>
+							</li>
+							<li id="menu-item-4165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4165">
+								<a href="http://www.perfectbody.com.co/atencion-medica-en-casa/">Atención en Casa</a>
+							</li>
 						</ul>
 					</div>
-					<div id="nav_menu-2" class="widget widget_nav_menu vc_col-sm-3 wpb_column vc_column_container">
-						<h3 class="box-header animation-slide">Otros Links</h3>
-						<div class="menu-additional-links-container">
-							<ul id="menu-additional-links" class="menu">
-								<li id="menu-item-3934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3934">
-									<a href="http://www.perfectbody.com.co/la-institucion/">La institución</a>
+				</div>
+				<div id="medicenter_scrolling_recent_posts-2" class="widget mc-scrolling-recent-posts-widget vc_col-sm-3 wpb_column vc_column_container">
+					<div class="clearfix scrolling-controls">
+						<div class="header-left">
+							<h3 class="box-header ">Novedades</h3>
+						</div>
+							<div class="header-right">
+								<a href="http://www.perfectbody.com.co/#" id="footer_recent_posts_prev" class="scrolling-list-control-left template-arrow-horizontal-3" style="display: block;"></a>
+								<a href="http://www.perfectbody.com.co/#" id="footer_recent_posts_next" class="scrolling-list-control-right template-arrow-horizontal-3" style="display: block;"></a>
+							</div>
+					</div>
+					<div class="scrolling-list-wrapper">
+						<div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; inset: auto; z-index: auto; width: 242px; height: 237px; margin: 0px; overflow: hidden;">
+							<ul class="scrolling-list footer-recent-posts" style="text-align: left; float: none; position: absolute; inset: 0px auto auto 0px; margin: 0px; height: 1027px; width: 242px;">
+								<li>
+									<a href="http://www.perfectbody.com.co/convocatoria-conformacion-de-asociacion-de-usuarios-mzo/" title="Convocatoria conformación de asociación de usuarios">
+									Convocatoria conformación de asociación de usuarios					</a>
+									<abbr title="March 1, 2021" class="timeago">March 1, 2021</abbr>
 								</li>
-								<li id="menu-item-4165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4165">
-									<a href="http://www.perfectbody.com.co/atencion-medica-en-casa/">Atención en Casa</a>
+								<li>
+									<a href="http://www.perfectbody.com.co/convocatoria-conformacion-de-asociacion-de-usuarios/" title="Convocatoria conformación de asociación de usuarios">
+										Convocatoria conformación de asociación de usuarios</a>
+									<abbr title="January 21, 2021" class="timeago">January 21, 2021</abbr>
+								</li>
+								<li>
+								<a href="http://www.perfectbody.com.co/seis-maneras-de-reducir-el-consumo-de-azucar/" title="Seis maneras de reducir el consumo de azúcar">
+								Seis maneras de reducir el consumo de azúcar					</a>
+								<abbr title="August 30, 2020" class="timeago">August 30, 2020</abbr>
+								</li>
+								<li>
+								<a href="http://www.perfectbody.com.co/jornada-de-lavado-de-manos/" title="Jornada de lavado de manos">
+								Jornada de lavado de manos					</a>
+								<abbr title="July 8, 2020" class="timeago">July 8, 2020</abbr>
+								</li>
+								<li>
+								<a href="http://www.perfectbody.com.co/condiciones-basicas-de-ingreso-de-usuarios/" title="Condiciones básicas de ingreso de usuarios">
+								Condiciones básicas de ingreso de usuarios					</a>
+								<abbr title="July 1, 2020" class="timeago">July 1, 2020</abbr>
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div id="medicenter_scrolling_recent_posts-2" class="widget mc-scrolling-recent-posts-widget vc_col-sm-3 wpb_column vc_column_container">
-						<div class="clearfix scrolling-controls">
-							<div class="header-left">
-								<h3 class="box-header ">Novedades</h3>
-							</div>
-								<div class="header-right">
-									<a href="http://www.perfectbody.com.co/#" id="footer_recent_posts_prev" class="scrolling-list-control-left template-arrow-horizontal-3" style="display: block;"></a>
-									<a href="http://www.perfectbody.com.co/#" id="footer_recent_posts_next" class="scrolling-list-control-right template-arrow-horizontal-3" style="display: block;"></a>
-								</div>
-						</div>
-						<div class="scrolling-list-wrapper">
-							<div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; inset: auto; z-index: auto; width: 242px; height: 237px; margin: 0px; overflow: hidden;">
-								<ul class="scrolling-list footer-recent-posts" style="text-align: left; float: none; position: absolute; inset: 0px auto auto 0px; margin: 0px; height: 1027px; width: 242px;">
-									<li>
-										<a href="http://www.perfectbody.com.co/convocatoria-conformacion-de-asociacion-de-usuarios-mzo/" title="Convocatoria conformación de asociación de usuarios">
-										Convocatoria conformación de asociación de usuarios					</a>
-										<abbr title="March 1, 2021" class="timeago">March 1, 2021</abbr>
-									</li>
-									<li>
-										<a href="http://www.perfectbody.com.co/convocatoria-conformacion-de-asociacion-de-usuarios/" title="Convocatoria conformación de asociación de usuarios">
-											Convocatoria conformación de asociación de usuarios</a>
-										<abbr title="January 21, 2021" class="timeago">January 21, 2021</abbr>
-									</li>
-									<li>
-									<a href="http://www.perfectbody.com.co/seis-maneras-de-reducir-el-consumo-de-azucar/" title="Seis maneras de reducir el consumo de azúcar">
-									Seis maneras de reducir el consumo de azúcar					</a>
-									<abbr title="August 30, 2020" class="timeago">August 30, 2020</abbr>
-									</li>
-									<li>
-									<a href="http://www.perfectbody.com.co/jornada-de-lavado-de-manos/" title="Jornada de lavado de manos">
-									Jornada de lavado de manos					</a>
-									<abbr title="July 8, 2020" class="timeago">July 8, 2020</abbr>
-									</li>
-									<li>
-									<a href="http://www.perfectbody.com.co/condiciones-basicas-de-ingreso-de-usuarios/" title="Condiciones básicas de ingreso de usuarios">
-									Condiciones básicas de ingreso de usuarios					</a>
-									<abbr title="July 1, 2020" class="timeago">July 1, 2020</abbr>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div id="media_image-3" class="widget widget_media_image vc_col-sm-3 wpb_column vc_column_container">
-						<img width="500" height="200" src="./Logo-Perfect-body-blanco.png" class="image wp-image-4170  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" srcset="http://www.perfectbody.com.co/wp-content/uploads/2020/06/Logo-Perfect-body-blanco.png 500w, http://www.perfectbody.com.co/wp-content/uploads/2020/06/Logo-Perfect-body-blanco-300x120.png 300w" sizes="(max-width: 500px) 100vw, 500px">
-					</div>
-					<div id="media_image-2" class="widget widget_media_image vc_col-sm-3 wpb_column vc_column_container">
-						<img width="300" height="120" src="./Supersalud-1-300x120.png" class="image wp-image-4169  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="http://www.perfectbody.com.co/wp-content/uploads/2020/06/Supersalud-1-300x120.png 300w, http://www.perfectbody.com.co/wp-content/uploads/2020/06/Supersalud-1.png 500w" sizes="(max-width: 300px) 100vw, 300px">
-					</div>					
 				</div>
-			</div>
-		</div>
-	
-		<div class="copyright-area-container">
-			<div class="copyright-area clearfix">
-				<div class="copyright-text">
-					<a target="_blank" title="Clinica Perfect Body Medical Center - Santa Marta" href="http://www.perfectbody.com.co/">
-						 Clinica Perfect Body Medical Center - Santa Marta
-					</a>.
+				<div id="media_image-3" class="widget widget_media_image vc_col-sm-3 wpb_column vc_column_container">
+					<img width="500" height="200" src="./Logo-Perfect-body-blanco.png" class="image wp-image-4170  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" srcset="http://www.perfectbody.com.co/wp-content/uploads/2020/06/Logo-Perfect-body-blanco.png 500w, http://www.perfectbody.com.co/wp-content/uploads/2020/06/Logo-Perfect-body-blanco-300x120.png 300w" sizes="(max-width: 500px) 100vw, 500px">
 				</div>
-				<div id="text-4" class="widget widget_text">
-					<div class="textwidget">
-						<div class="icons-list">
-							<a href="https://twitter.com/QuanticaLabs" target="_blank" class="icon-single mc-icon social-twitter" rel="noopener noreferrer"></a>
-							<a href="https://www.facebook.com/QuanticaLabs/" target="_blank" class="icon-single mc-icon social-facebook" rel="noopener noreferrer"></a>
-							<a href="https://www.pinterest.com/quanticalabs/" target="_blank" class="icon-single mc-icon social-pinterest" rel="noopener noreferrer"></a>
-						</div>
-					</div>
-				</div>
-				<div class="menu-footer-menu-container">
-					<ul id="menu-footer-menu" class="footer-menu">
-						<li id="menu-item-3867" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3867">
-							<a href="http://www.perfectbody.com.co/#">Privacy</a>
-						</li>
-						<li id="menu-item-3868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3868">
-							<a href="http://www.perfectbody.com.co/#">Terms</a>
-						</li>
-						<li id="menu-item-3869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3869">
-							<a href="http://www.perfectbody.com.co/#">Sitemap</a>
-						</li>
-					</ul>
-				</div>
+				<div id="media_image-2" class="widget widget_media_image vc_col-sm-3 wpb_column vc_column_container">
+					<img width="300" height="120" src="./Supersalud-1-300x120.png" class="image wp-image-4169  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="http://www.perfectbody.com.co/wp-content/uploads/2020/06/Supersalud-1-300x120.png 300w, http://www.perfectbody.com.co/wp-content/uploads/2020/06/Supersalud-1.png 500w" sizes="(max-width: 300px) 100vw, 300px">
+				</div>					
 			</div>
 		</div>
 	</div>
-	<a href="http://www.perfectbody.com.co/#top" class="scroll-top animated-element template-arrow-vertical-3" title="Scroll to top" style="animation-duration: 600ms; animation-delay: 0ms; transition-delay: 0ms;"></a>
+  <!-- fin footer-->
 
-	<!--boostrap scripts-->
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>	
-	
-	
-	<script type="text/html" id="wpb-modifications"></script>
-	<link href="../resources/css/css(3).css" rel="stylesheet" property="stylesheet" media="all" type="text/css">
+  
+	<div class="copyright-area-container">
+		<div class="copyright-area clearfix">
+			<div class="copyright-text">
+				<a target="_blank" title="Clinica Perfect Body Medical Center - Santa Marta" href="http://www.perfectbody.com.co/">
+					 Clinica Perfect Body Medical Center - Santa Marta
+				</a>.
+			</div>
+			<div id="text-4" class="widget widget_text">
+				<div class="textwidget">
+					<div class="icons-list">
+						<a href="https://twitter.com/QuanticaLabs" target="_blank" class="icon-single mc-icon social-twitter" rel="noopener noreferrer"></a>
+						<a href="https://www.facebook.com/QuanticaLabs/" target="_blank" class="icon-single mc-icon social-facebook" rel="noopener noreferrer"></a>
+						<a href="https://www.pinterest.com/quanticalabs/" target="_blank" class="icon-single mc-icon social-pinterest" rel="noopener noreferrer"></a>
+					</div>
+				</div>
+			</div>
+			<div class="menu-footer-menu-container">
+				<ul id="menu-footer-menu" class="footer-menu">
+					<li id="menu-item-3867" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3867">
+						<a href="http://www.perfectbody.com.co/#">Privacy</a>
+					</li>
+					<li id="menu-item-3868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3868">
+						<a href="http://www.perfectbody.com.co/#">Terms</a>
+					</li>
+					<li id="menu-item-3869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3869">
+						<a href="http://www.perfectbody.com.co/#">Sitemap</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<a href="http://www.perfectbody.com.co/#top" class="scroll-top animated-element template-arrow-vertical-3" title="Scroll to top" style="animation-duration: 600ms; animation-delay: 0ms; transition-delay: 0ms;"></a>
+<script src="../resources/js/app.js"></script>
+<!--boostrap scripts-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>	
 
-		
-	<script type="text/javascript" src="../resources/js/core.min.js"></script>
-	<script type="text/javascript" src="../resources/js/widget.min.js."></script>
-	<script type="text/javascript" src="../resources/js/accordion.min.js"></script>
-	<script type="text/javascript" src="../resources/js/tabs.min.js"></script>
-	<script type="text/javascript" src="../resources/js/datepicker.min.js"></script>
-	<script type="text/javascript">
-	jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
-	</script>
-	<script type="text/javascript" src="../resources/js/jquery.imagesloaded-packed.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.ba-bbq.min.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.history.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.carouFredSel-6.2.1-packed.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.sliderControl.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.timeago.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.hint.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.isotope-packed.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.qtip.min.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.blockUI.js"></script>
-	<script type="text/javascript" src="../resources/js/jquery.parallax.min.js"></script>
-	<script type="text/javascript">
-	/* <![CDATA[ */
-	var config = [];
-	config = {"ajaxurl":"http:\/\/www.perfectbody.com.co\/wp-admin\/admin-ajax.php","themename":"medicenter","home_url":"http:\/\/www.perfectbody.com.co","is_rtl":0};;
-	/* ]]> */
-	</script>
-	<script type="text/javascript" src="../resources/js/main.js"></script>
-	<script type="text/javascript" src="../resources/js/odometer.min.js"></script>
-	<script type="text/javascript" src="../resources/js/joinchat.min.js"></script>
-	<script type="text/javascript" src="../resources/js/wp-embed.min.js"></script>
-	<script type="text/javascript" src="../resources/js/js_composer_front.min.js"></script>
-	<script async="" type="text/javascript" src="../resources/js/_Incapsula_Resource"></script>
+
+<script type="text/html" id="wpb-modifications"></script>
+<link href="../resources/css/css(3).css" rel="stylesheet" property="stylesheet" media="all" type="text/css">
+
+	
+<script type="text/javascript" src="../resources/js/core.min.js"></script>
+<script type="text/javascript" src="../resources/js/widget.min.js."></script>
+<script type="text/javascript" src="../resources/js/accordion.min.js"></script>
+<script type="text/javascript" src="../resources/js/tabs.min.js"></script>
+<script type="text/javascript" src="../resources/js/datepicker.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type="text/javascript" src="../resources/js/jquery.imagesloaded-packed.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.history.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.sliderControl.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.timeago.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.hint.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.isotope-packed.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.blockUI.js"></script>
+<script type="text/javascript" src="../resources/js/jquery.parallax.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var config = [];
+config = {"ajaxurl":"http:\/\/www.perfectbody.com.co\/wp-admin\/admin-ajax.php","themename":"medicenter","home_url":"http:\/\/www.perfectbody.com.co","is_rtl":0};;
+/* ]]> */
+</script>
+<script type="text/javascript" src="../resources/js/main.js"></script>
+<script type="text/javascript" src="../resources/js/odometer.min.js"></script>
+<script type="text/javascript" src="../resources/js/joinchat.min.js"></script>
+<script type="text/javascript" src="../resources/js/wp-embed.min.js"></script>
+<script type="text/javascript" src="../resources/js/js_composer_front.min.js"></script>
+<script async="" type="text/javascript" src="../resources/js/_Incapsula_Resource"></script>
 
 </body>
 </html>
