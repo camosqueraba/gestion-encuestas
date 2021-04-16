@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('perfectbody');
 });
+
+Route::get('/principal', function () {
+    return view('principal');
+});
