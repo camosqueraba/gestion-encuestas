@@ -398,10 +398,18 @@
 			</div>
 			<div id="text-4" class="widget widget_text">
 				<div class="textwidget">
+					<!--
 					<div class="icons-list">
 						<a href="https://twitter.com/QuanticaLabs" target="_blank" class="icon-single mc-icon social-twitter" rel="noopener noreferrer"></a>
 						<a href="https://www.facebook.com/QuanticaLabs/" target="_blank" class="icon-single mc-icon social-facebook" rel="noopener noreferrer"></a>
 						<a href="https://www.pinterest.com/quanticalabs/" target="_blank" class="icon-single mc-icon social-pinterest" rel="noopener noreferrer"></a>
+					</div>
+					-->
+					<div class="icons-list">
+						<a href="https://twitter.com/perfectbodymc" target="_blank" class="fab fa-twitter" style="font-size:20px;color:#999" rel="noopener noreferrer"></a>
+						<a href="https://www.facebook.com/perfectbodymc/" target="_blank" class="fab fa-facebook-f" style="font-size:20px;color:#999" rel="noopener noreferrer"></a>
+						<a href="https://www.instagram.com/perfectbodymc" target="_blank" class="fab fa-instagram" style="font-size:20px;color:#999" rel="noopener noreferrer"></a>
+
 					</div>
 				</div>
 			</div>
