@@ -8,11 +8,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="format-detection" content="telephone=no">
-	<!--
+	
 	<meta name="generator" content="WordPress 5.4.4">
 	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
 	<meta name="generator" content="Powered by Slider Revolution 6.2.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-	-->
+	
 
 	<!--style-->
 	<link rel="pingback" href="http://www.perfectbody.com.co/xmlrpc.php">

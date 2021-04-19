@@ -4,24 +4,22 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<!--meta-->
-	<meta name="generator" content="WordPress 5.4.4">
+	<!--<meta name="generator" content="WordPress 5.4.4">-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="">
+	<meta name="description" content="encuesta satisfación">
 	<meta name="format-detection" content="telephone=no">
-	<!--
-	<meta name="generator" content="WordPress 5.4.4">
-	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
-	<meta name="generator" content="Powered by Slider Revolution 6.2.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-	-->
+	
 
 	<!--style-->
-	<link rel="pingback" href="http://www.perfectbody.com.co/xmlrpc.php">
+
+	<!--<link rel="pingback" href="http://www.perfectbody.com.co/xmlrpc.php">-->
 	<link rel="icon" href="../resources/images/favicon_perfect.png">
 	
-	<title>Encuesta Hospitalización</title>
+	<title>Encuesta Cirugia</title>
+	<!--
 	<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 	<link rel="dns-prefetch" href="http://s.w.org/">
-	
+	-->
 	<!--boostrap styles-->
   
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -29,38 +27,58 @@
 	<link rel="stylesheet" id="wp-block-library-css" href="../resources/css/style.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="wp-block-library-theme-css" href="../resources/css/theme.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="rs-plugin-settings-css" href="../resources/css/rs6.css" type="text/css" media="all">
-	<style id="rs-plugin-settings-inline-css" type="text/css">
+	<link rel="stylesheet" id="superfish-css" href="../resources/css/superfish.css" type="text/css" media="all">
+	<link rel="stylesheet" id="odometer-css" href="../resources/css/odometer-theme-default.css" type="text/css" media="all">
+	<link rel="stylesheet" id="main-style-css" href="../resources/css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" id="responsive-css" href="../resources/css/responsive.css" type="text/css" media="all">
+	<link rel="stylesheet" id="mc-template-css" href="../resources/css/style(2).css" type="text/css" media="all">
+	<link rel="stylesheet" id="mc-features-css" href="../resources/css/style(1).css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	
+	<script src="https://kit.fontawesome.com/f538f61bfb.js" crossorigin="anonymous"></script>
+
+	<!-- estilos propios -->
+    <link rel="stylesheet" href="../resources/css/estilos.css" type='text/css' media='all' />
+	
+	<!--
+	<style id="rs-plugin-settings-inline-css" type="text/css">
+	-->
+	<!--
 	</style>
 	<link rel="stylesheet" id="monsterinsights-popular-posts-style-css" href="../resources/css/frontend.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="google-font-source-sans-pro-css" href="../resources/css/css.css" type="text/css" media="all">
 	<link rel="stylesheet" id="google-font-open-sans-css" href="../resources/css/css(1).css" type="text/css" media="all">
+	
 	<link rel="stylesheet" id="google-font-pt-serif-css" href="../resources/css/css(2).css" type="text/css" media="all">
 	<link rel="stylesheet" id="reset-css" href="../resources/css/reset.css" type="text/css" media="all">
-	<link rel="stylesheet" id="superfish-css" href="../resources/css/superfish.css" type="text/css" media="all">
+	
 	<link rel="stylesheet" id="prettyPhoto-css" href="../resources/css/prettyPhoto.css" type="text/css" media="all">
 	<link rel="stylesheet" id="jquery-qtip-css" href="../resources/css/jquery.qtip.css" type="text/css" media="all">
-	<link rel="stylesheet" id="odometer-css" href="../resources/css/odometer-theme-default.css" type="text/css" media="all">
+	
 	<link rel="stylesheet" id="animations-css" href="../resources/css/animations.css" type="text/css" media="all">
-	<link rel="stylesheet" id="main-style-css" href="../resources/css/style.css" type="text/css" media="all">
-	<link rel="stylesheet" id="responsive-css" href="../resources/css/responsive.css" type="text/css" media="all">
-	<link rel="stylesheet" id="mc-features-css" href="../resources/css/style(1).css" type="text/css" media="all">
-	<link rel="stylesheet" id="mc-template-css" href="../resources/css/style(2).css" type="text/css" media="all">
+	
+	
+	
+	
 	<link rel="stylesheet" id="mc-social-css" href="../resources/css/style(3).css" type="text/css" media="all">
 	<link rel="stylesheet" id="custom-css" href="../resources/css/custom.css" type="text/css" media="all">
 	<link rel="stylesheet" id="joinchat-css" href="../resources/css/joinchat.min.css" type="text/css" media="all">
+	
 	<style id="joinchat-inline-css" type="text/css">
 	.joinchat{ --red:37; --green:211; --blue:102; }
 	</style>
 	<link rel="stylesheet" id="js_composer_front-css" href="../resources/css/js_composer_front_custom.css" type="text/css" media="all">
-	<link rel="stylesheet" id="js_composer_custom_css-css" href="../resources/css/custom(1).css" type="text/css" media="all">
+	<link rel="stylesheet" id="js_composer_custom_css-css" href="../resources/css/custom(1).css" type="text/css" media="all">-->
 	
 	<script type="text/javascript" src="../resources/js/frontend-gtag.min.js"></script>
 	<script type="text/javascript" src="../resources/js/jquery.js"></script>
 	<script type="text/javascript" src="../resources/js/jquery-migrate.min.js"></script>
 	<script type="text/javascript" src="../resources/js/rbtools.min.js"></script>
 	<script type="text/javascript" src="../resources/js/rs6.min.js"></script>
+	<!--
 	<link rel="https://api.w.org/" href="http://www.perfectbody.com.co/wp-json/">
+	
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.perfectbody.com.co/xmlrpc.php?rsd">
 	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.perfectbody.com.co/wp-includes/wlwmanifest.xml"> 
 	
@@ -68,10 +86,12 @@
 	<link rel="shortlink" href="http://www.perfectbody.com.co/">
 	<link rel="alternate" type="application/json+oembed" href="http://www.perfectbody.com.co/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.perfectbody.com.co%2F">
 	<link rel="alternate" type="text/xml+oembed" href="http://www.perfectbody.com.co/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.perfectbody.com.co%2F&amp;format=xml">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="../resources/css/estilos.css" type='text/css' media='all' />
-	<script src="https://kit.fontawesome.com/f538f61bfb.js" crossorigin="anonymous"></script>
-	<style>#rev_slider_1_1_wrapper { height: 670px }</style>
+	-->
+	<!--
+	<style>#rev_slider_1_1_wrapper { height: 670px }</style>-->
+    
+    
+	
 </head>
 
 
@@ -268,401 +288,7 @@
 		<!--Encuesta-->
 		
 		<br />
-    <div id="contenedor-encuestas" class="container">
-      <section id="encabezado-encuesta" class="row">
-        <div class="col-md-12">
-          <h2 class="text-center">FORMATO ENCUESTA DE SATISFACIÓN HOSPITALIZACIÓN</h2>
-          <p class="texto-parrafo">Estimado Usuario<br>          
-            Para Perfect Body Medical Center, sus opiniones y sugerencias son de valiosa importancia para la
-            mejora continua. Permitanos conocer su percepción para la toma de decisiones que nos permita
-            prestarle cada vez, un mejor servicio.</p>
-        </div>
-      </section>
-      <hr><br />
-      <section class="row">
-        <section class="col-md-12">
-          <h3>Datos básicos</h3>
-          <p></p>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-md-12">
-          <section class="row">
-            <div class="col-md-8">
-              <div class="form-group">
-                <label for="nombreCompleto">Nombre del Paciente:*</label>
-                <input type="text" class="form-control" id="nombreCompleto" maxlength="128" placeholder="Nombre del Paciente" required>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="form-group">
-                <label for="idIdentificacion">Identificación:*</label>
-                <input type="number" id="identificacion" class="form-control" placeholder="Numero de Identificación" maxlength="15" required/>
-              </div>
-            </div>
-          </section>
-
-          <section class="row">
-            <div class="col-md-8">
-              <div class="form-group">
-                <label for="email">Correo Electrónico:*</label>
-                <input type="email" class="form-control" id="email" maxlength="128" placeholder="Correo Electronico" required>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <label for="telefono">Teléfono/Celular:*</label>
-              <input type="text" class="form-control" id="telefono" placeholder="Telefono/Celular" maxlength="30" required/>
-            </div>
-            
-          </section>
-          <section class="row">
-            <div class="col-md-4">
-              <div class="form-group">
-                <label for="fechaEncuesta">Fecha de Encuesta: *</label>
-                <input type="date" class="form-control" id="fechaEncuesta" required>
-              </div>
-            </div>
-          
-            <div class="col-md-4">
-              <div class="form-group">
-                <label for="NumeroHabitación">Número de Habitación: *</label>
-                <input type="number" class="form-control" id="numeroHabitacion" required>
-              </div>
-            </div>
-            <!--
-            <div class="col-md-4">
-              <label for="entidadPaciente">Entidad: *</label>
-                <select class="form-control" id="entidad">
-                  <option value="ce">Consulta Externa</option>
-                  <option value="farm">Farmacia</option>
-                  <option value="hosp">Hospitalización</option>
-                  <option value="pyp">Promoción y Prevención</option>
-                  <option value="rx">Rayos X</option>
-                  <option value="urge">Consulta Prioritaria</option>
-                </select>
-            </div>
-            -->
-          </section>
-        </section>
-      </section>
-      <hr />
-
-      <!--  Servicios  -->
-      <section id="seccion_nivel_estandar" class="row">
-        <div class="col-md-12">
-          <h4>
-            POR FAVOR SELECCIONE UNA OPCIÓN SEGÚN SU PERCEPCIÓN DEL SERVICIO RECIBIDO
-          </h4>
-          <div class="row">
-            <div id="preguntas_estandar" class="col-md-6 ">
-              <!--<div class="items_preguntas_estandar">-->
-                <p class="">¿Como califica nuestras instalaciones?</p>
-              <!--</div>-->
-            </div>
-            <div class="col-md-4 items_preguntas_estandar">
-              <select class="opciones_desplegables" name="pregunta_estandar1">
-                <option value="0">Seleccionar</option>
-                <option value="5">Muy Bueno</option>
-                <option value="4">Bueno</option>
-                <option value="3">Regular</option>
-                <option value="2">Malo</option> 
-                <option value="1">Muy Malo</option> 
-              </select>
-            </div>
-          </div>
-
-          <div class="row">
-            <div id="preguntas_estandar" class="col-md-6 ">
-              <!--<div class="items_preguntas_estandar">-->
-                <p class="">¿Cómo califica el trato recibido por parte del personal Administrativo?</p>
-              <!--</div>-->
-            </div>
-            <div class="col-md-4 items_preguntas_estandar">
-              <select class="opciones_desplegables" name="pregunta_estandar1">
-                <option value="0">Seleccionar</option>
-                <option value="5">Muy Bueno</option>
-                <option value="4">Bueno</option>
-                <option value="3">Regular</option>
-                <option value="2">Malo</option> 
-                <option value="1">Muy Malo</option> 
-              </select>
-            </div>
-          </div>
-
-          <div class="row">
-            <div id="preguntas_estandar" class="col-md-6 ">
-              <!--<div class="items_preguntas_estandar">-->
-                <p class="">¿Cómo califica la atención del equipo de enfermeras?</p>
-              <!--</div>-->
-            </div>
-            <div class="col-md-4 items_preguntas_estandar">
-              <select class="opciones_desplegables" name="pregunta_estandar1">
-                <option value="0">Seleccionar</option>
-                <option value="5">Muy Bueno</option>
-                <option value="4">Bueno</option>
-                <option value="3">Regular</option>
-                <option value="2">Malo</option> 
-                <option value="1">Muy Malo</option> 
-              </select>
-            </div>
-          </div>
-
-          <div class="row">
-            <div id="preguntas_estandar" class="col-md-6 ">
-              <!--<div class="items_preguntas_estandar">-->
-                <p class="">¿Cómo fue aseo de las instalaciones?</p>
-              <!--</div>-->
-            </div>
-            <div class="col-md-4 items_preguntas_estandar">
-              <select class="opciones_desplegables" name="pregunta_estandar1">
-                <option value="0">Seleccionar</option>
-                <option value="5">Muy Bueno</option>
-                <option value="4">Bueno</option>
-                <option value="3">Regular</option>
-                <option value="2">Malo</option> 
-                <option value="1">Muy Malo</option> 
-              </select>
-            </div>
-          </div>
-
-          <div class="row">
-            <div id="preguntas_estandar" class="col-md-6 ">
-              <!--<div class="items_preguntas_estandar">-->
-                <p class="">¿Cómo califica el trato recibido por parte del personal Administrativo?</p>
-              <!--</div>-->
-            </div>
-            <div class="col-md-4 items_preguntas_estandar">
-              <select class="opciones_desplegables" name="pregunta_estandar1">
-                <option value="0">Seleccionar</option>
-                <option value="5">Muy Bueno</option>
-                <option value="4">Bueno</option>
-                <option value="3">Regular</option>
-                <option value="2">Malo</option> 
-                <option value="1">Muy Malo</option> 
-              </select>
-            </div>
-          </div>
-
-          <div class="row">
-            <div id="preguntas_estandar" class="col-md-6 ">
-              <!--<div class="items_preguntas_estandar">-->
-                <p class="">¿Cómo califica información sobre los Apoyos Diagnosticos * ?</p>
-              <!--</div>-->
-            </div>
-            <div class="col-md-4 items_preguntas_estandar">
-              <select class="opciones_desplegables" name="pregunta_estandar1">
-                <option value="0">Seleccionar</option>
-                <option value="5">Muy Bueno</option>
-                <option value="4">Bueno</option>
-                <option value="3">Regular</option>
-                <option value="2">Malo</option> 
-                <option value="1">Muy Malo</option> 
-              </select>
-            </div>
-          </div>
-
-          <div class="row">
-            <div id="preguntas_estandar" class="col-md-6 ">
-              <!--<div class="items_preguntas_estandar">-->
-                <p class="">¿Cómo califica la atención durante el traslado asistencial (ambulancia)?</p>
-              <!--</div>-->
-            </div>
-            <div class="col-md-4 items_preguntas_estandar">
-              <select class="opciones_desplegables" name="pregunta_estandar1">
-                <option value="0">Seleccionar</option>
-                <option value="5">Muy Bueno</option>
-                <option value="4">Bueno</option>
-                <option value="3">Regular</option>
-                <option value="2">Malo</option> 
-                <option value="1">Muy Malo</option> 
-              </select>
-            </div>
-          </div>
-
-          <div class="row">
-            <div id="preguntas_estandar" class="col-md-6 ">
-              <!--<div class="items_preguntas_estandar">-->
-                <p class="">¿Cómo fue la información que recibió de normas y servicios?</p>
-              <!--</div>-->
-            </div>
-            <div class="col-md-4 items_preguntas_estandar">
-              <select class="opciones_desplegables" name="pregunta_estandar1">
-                <option value="0">Seleccionar</option>
-                <option value="5">Muy Bueno</option>
-                <option value="4">Bueno</option>
-                <option value="3">Regular</option>
-                <option value="2">Malo</option> 
-                <option value="1">Muy Malo</option> 
-              </select>
-            </div>
-          </div>
-          
-        </div>
-      </section>
-      
-      <section class="row">
-        <div class="col-md-12">
-          <h3>Servicio.</h3>
-          <p></p>
-        </div>
-      </section>
-      <!--  PREGUNTA 1  -->
-      <section class="row">
-        <div class="col-md-4">
-          <p>¿La Atencion Medica fue realizada a Tiempo?</p>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">Si
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
-          </label>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">No
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
-          </label>
-        </div>
-        <div class="col-md-6">
-          <label class="radio">¿por qué?</label>
-          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
-        </div>
-      </section>
-      <!--  PREGUNTA 2  -->
-      <section class="row">
-        <div class="col-md-4">
-          <p>¿Recomendaria a PERFECT BODY MEDICAL CENTER a sus familiares y amigos?</p>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">Si
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
-          </label>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">No
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
-          </label>
-        </div>
-        <div class="col-md-6">
-          <label class="radio">¿por qué?
-          
-          </label>
-          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
-        </div>
-      </section>
-      <!--  PREGUNTA 3  -->
-      <section class="row">
-        <div class="col-md-4">
-          <p>¿Volvería usted a utilizar los servicios de PERFECT BODY MEDICAL CENTER?</p>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">Si
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
-          </label>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">No
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
-          </label>
-        </div>
-        <div class="col-md-6">
-          <label class="radio">¿por qué?
-          
-          </label>
-          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
-        </div>
-      </section>
-      <!--  PREGUNTA 4  -->
-      <section class="row">
-        <div class="col-md-4">
-          <p>¿Desearia usted destacar a algun funcionario por su buen servicio?</p>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">Si
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
-          </label>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">No
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
-          </label>
-        </div>
-        <div class="col-md-6">
-          <label class="radio">¿por qué?
-          
-          </label>
-          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
-        </div>
-      </section>
-      <!--  PREGUNTA 5  -->
-      
-      <!--  PREGUNTA 6  -->
-      <section class="row">
-        <div class="col-md-4">
-          <p>¿Desearia usted destacar a algun funcionario por su mal servicio?</p>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">Si
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
-          </label>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">No
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
-          </label>
-        </div>
-        <div class="col-md-6">
-          <label class="radio">¿por qué?
-          
-          </label>
-          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
-        </div>
-      </section>
-      <section class="row">
-        <div class="col-md-4">
-          <p>¿Está usted satisfecho con nuestro servicio?</p>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">Si
-          <input type="radio" name="pregunta1" id="pregunta1a" value="SI">
-          </label>
-        </div>
-        <div class="col-md-1">
-          <label class="radio">No
-          <input type="radio" name="pregunta1" id="preguntab" value="NO"> 
-          </label>
-        </div>
-        <div class="col-md-6">
-          <label class="radio">¿por qué?
-          
-          </label>
-          <textarea class="texto-justificacion form-control texto-justificacion" rows="2" id="comentarios"></textarea>
-        </div>
-      </section>
-      
-      <br />
-      <hr />
-      <!--  Comentarios  -->
-      <section class="row">
-        <div class="col-md-12">
-          <h3>Sugerencias y recomendaciones:</h3>
-          <p></p>
-        </div>
-      </section>
-      <section class="row">
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="comment">Sugerencias y recomendaciones:</label>
-            <textarea class="form-control" rows="6" id="comentarios"></textarea>
-          </div>
-        </div>
-      </section>
-      <section class="row">
-        <div class="col-md-12">
-          <button type="button" class="btn btn-info" id="saveForm" onclick="saveForm">Guardar Encuesta</button>
-          <button type="button" class="btn btn-danger" id="clearForm">Limpiar formulario</button>
-        </div>
-      </section>
-    </div>
-		
+    
 		
 		
 	<!--Footer-->
@@ -691,9 +317,9 @@
 			<div class="footer-box-container vc_row wpb_row vc_row-fluid clearfix">
 				<div id="medicenter_contact_details-2" class="widget mc_contact_details_widget vc_col-sm-3 wpb_column vc_column_container"><h3 	       class="box-header animation-slide animation-slide">Datos de contacto</h3>
 					<ul class="contact-data">
-						<li class="clearfix template-location"><div class="value">Carrera 20 # 15 - 110<br>Santa Marta, Magdalena 47001</div></li>
-						<li class="clearfix template-phone"><div class="value"><a href="tel:(5)4237101">(5) 4237101</a><br><a href="tel:(315) 8707898">(315) 8707898</a><br></div></li>
-						<li class="clearfix template-mail"><div class="value"><a href="mailto:info@perfectbody.com.co">info@perfectbody.com.co</a></div></li>
+						<li class="clearfix template-location"><div class="value"><span class="material-icons material-icons.md-14">location_on</span>Carrera 20 # 15 - 110<br>Santa Marta, Magdalena 47001</div></li>
+						<li class="clearfix template-phone"><div class="value"><a href="tel:(5)4237101"><span class="material-icons material-icons.md-14">phone</span>(5) 4237101</a><br><a href="tel:(315) 8707898">(315) 8707898</a><br></div></li>
+						<li class="clearfix template-mail"><div class="value"><a href="mailto:info@perfectbody.com.co"><span class="material-icons material-icons.md-14">email</span>info@perfectbody.com.co</a></div></li>
 					</ul>
 				</div>
 				<div id="nav_menu-2" class="widget widget_nav_menu vc_col-sm-3 wpb_column vc_column_container">

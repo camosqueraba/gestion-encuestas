@@ -121,3 +121,8 @@ a:hover {
       margin-bottom: 10px;
       width: 150%;
   }
+
+  .input-datos{
+    margin-bottom: 10px;
+    margin-top: 2px;
+  }
