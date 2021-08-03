@@ -878,7 +878,7 @@ h2.large.box-header::after
 .sf-menu li:hover a, .sf-menu li.selected a, .sf-menu li.current-menu-item a, .sf-menu li.current-menu-ancestor a
 {
 	color: #FFF;
-	background: #42B3E5;
+	background: #e82a7a;
 }
 .sf-menu>li.menu-item-has-children>a, .sf-menu>li.menu-item-has-children>a:visited
 {
@@ -1090,9 +1090,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 .mobile-menu-container nav.mobile-menu>ul li.current-menu-ancestor ul li.current-menu-parent a,
 .mobile-menu-container nav.mobile-menu>ul li.current-menu-ancestor ul li.current-menu-parent ul li.current-menu-parent a
 {
-	background: #42B3E5;
-	border-left-color: #42B3E5;
-	border-right-color: #42B3E5;
+	background: #e82a7a;
+	border-left-color: #e82a7a;
+	border-right-color: #e82a7a;
 	color: #FFF;
 }
 .mobile-menu-container nav.mobile-menu>ul li ul.sub-menu
@@ -5994,16 +5994,16 @@ body .wpb_tab .wpb_single_image
 .footer-banner-box-container .footer-banner-box:nth-child(3n+1)
 {
 	z-index: 3;
-	background: #42B3E5;
+	background: #e82a7a;
 }
 .footer-banner-box-container .footer-banner-box:nth-child(3n+2)
 {
-	background: #0384CE;
+	background: #a3a3a3;
 }
 .footer-banner-box-container .footer-banner-box:nth-child(3n+3)
 {
 	z-index: 1;
-	background: #3156A3;
+	background: #003660;
 }
 .footer-banner-box
 {

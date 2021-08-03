@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('perfectbody');
+    //return view('perfectbody');
+    //return view('principal');
+    //return view('plantilla_encuesta');
+    return view('encuestas.prioritaria');
 });
 Route::get('encuesta-prioritaria', function () {
     return view('encuesta_prioritaria');
@@ -31,3 +34,7 @@ Route::get('encuesta-cirugia', function () {
 Route::get('plantilla', function () {
     return view('encuestas_plantilla');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

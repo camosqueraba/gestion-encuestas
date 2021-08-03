@@ -1,6 +1,12 @@
-<!--Encuesta Prioritaria-->
-		
-<div id="contenedor-encuestas" class="container">
+<!--Encuesta Prioritaria--> 
+@extends('plantilla_encuesta')
+@section('title', 'Encuesta Prioritaria')
+    
+
+@section('encuesta')
+<form action="">
+  
+  <div id="contenedor-encuestas" class="container">
   <section id="encabezado-encuesta" class="row">
     <div class="col-md-12">
       <h2 class="text-center">FORMATO ENCUESTA DE SATISFACIÓN CONSULTA PRIORITARIA</h2>
@@ -394,3 +400,6 @@
     </div>
   </section>
 </div>
+
+</form>		
+@endsection

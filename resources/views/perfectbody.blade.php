@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <!-- saved from url=(0030)http://www.perfectbody.com.co/ -->
 <html lang="es-ES" class=" js_active  vc_desktop  vc_transform  vc_transform ">
 <head>
@@ -24,7 +24,9 @@
 	
 	<!--boostrap styles-->
   
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	{{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> --}}
+
+	<link href="../resources/css/bootstrap.min.css" type="text/css" media="all" rel="stylesheet" >
   
 	<link rel="stylesheet" id="wp-block-library-css" href="../resources/css/style.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="wp-block-library-theme-css" href="../resources/css/theme.min.css" type="text/css" media="all">
@@ -696,20 +698,11 @@
 						<li class="clearfix template-mail"><div class="value"><a href="mailto:info@perfectbody.com.co">info@perfectbody.com.co</a></div></li>
 					</ul>
 				</div>
-				<div id="nav_menu-2" class="widget widget_nav_menu vc_col-sm-3 wpb_column vc_column_container">
+				{{-- <div id="nav_menu-2" class="widget widget_nav_menu vc_col-sm-3 wpb_column vc_column_container">
 					<h3 class="box-header animation-slide">Otros Links</h3>
-					<div class="menu-additional-links-container">
-						<ul id="menu-additional-links" class="menu">
-							<li id="menu-item-3934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3934">
-								<a href="http://www.perfectbody.com.co/la-institucion/">La institución</a>
-							</li>
-							<li id="menu-item-4165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4165">
-								<a href="http://www.perfectbody.com.co/atencion-medica-en-casa/">Atención en Casa</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div id="medicenter_scrolling_recent_posts-2" class="widget mc-scrolling-recent-posts-widget vc_col-sm-3 wpb_column vc_column_container">
+					
+				</div> --}}
+				{{-- <div id="medicenter_scrolling_recent_posts-2" class="widget mc-scrolling-recent-posts-widget vc_col-sm-3 wpb_column vc_column_container">
 					<div class="clearfix scrolling-controls">
 						<div class="header-left">
 							<h3 class="box-header ">Novedades</h3>
@@ -750,12 +743,12 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> --}}
 				<div id="media_image-3" class="widget widget_media_image vc_col-sm-3 wpb_column vc_column_container">
-					<img width="500" height="200" src="./Logo-Perfect-body-blanco.png" class="image wp-image-4170  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" srcset="http://www.perfectbody.com.co/wp-content/uploads/2020/06/Logo-Perfect-body-blanco.png 500w, http://www.perfectbody.com.co/wp-content/uploads/2020/06/Logo-Perfect-body-blanco-300x120.png 300w" sizes="(max-width: 500px) 100vw, 500px">
+					<img width="500" height="200" src="../resources/images/Logo-Perfect-body-blanco.png" class="image wp-image-4170  attachment-full size-full" alt="" style="max-width: 100%; height: auto;"  sizes="(max-width: 500px) 100vw, 500px">
 				</div>
 				<div id="media_image-2" class="widget widget_media_image vc_col-sm-3 wpb_column vc_column_container">
-					<img width="300" height="120" src="./Supersalud-1-300x120.png" class="image wp-image-4169  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="http://www.perfectbody.com.co/wp-content/uploads/2020/06/Supersalud-1-300x120.png 300w, http://www.perfectbody.com.co/wp-content/uploads/2020/06/Supersalud-1.png 500w" sizes="(max-width: 300px) 100vw, 300px">
+					<img width="300" height="120" src="../resources/images//Supersalud-1-300x120.png" class="image wp-image-4169  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;"  sizes="(max-width: 300px) 100vw, 300px">
 				</div>					
 			</div>
 		</div>
@@ -766,11 +759,11 @@
 	<div class="copyright-area-container">
 		<div class="copyright-area clearfix">
 			<div class="copyright-text">
-				<a target="_blank" title="Clinica Perfect Body Medical Center - Santa Marta" href="http://www.perfectbody.com.co/">
+				<a target="_blank" title="Clinica Perfect Body Medical Center - Santa Marta" href="#">
 					 Clinica Perfect Body Medical Center - Santa Marta
 				</a>.
 			</div>
-			<div id="text-4" class="widget widget_text">
+			{{-- <div id="text-4" class="widget widget_text">
 				<div class="textwidget">
 					<div class="icons-list">
 						<a href="https://twitter.com/QuanticaLabs" target="_blank" class="icon-single mc-icon social-twitter" rel="noopener noreferrer"></a>
@@ -778,8 +771,8 @@
 						<a href="https://www.pinterest.com/quanticalabs/" target="_blank" class="icon-single mc-icon social-pinterest" rel="noopener noreferrer"></a>
 					</div>
 				</div>
-			</div>
-			<div class="menu-footer-menu-container">
+			</div> --}}
+			{{-- <div class="menu-footer-menu-container">
 				<ul id="menu-footer-menu" class="footer-menu">
 					<li id="menu-item-3867" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3867">
 						<a href="http://www.perfectbody.com.co/#">Privacy</a>
@@ -791,11 +784,11 @@
 						<a href="http://www.perfectbody.com.co/#">Sitemap</a>
 					</li>
 				</ul>
-			</div>
+			</div> --}}
 		</div>
-	</div>
+	</div>{{-- <a href="http://www.perfectbody.com.co/#top" class="scroll-top animated-element template-arrow-vertical-3" title="Scroll to top" style="animation-duration: 600ms; animation-delay: 0ms; transition-delay: 0ms;"></a> --}}
 </div>
-<a href="http://www.perfectbody.com.co/#top" class="scroll-top animated-element template-arrow-vertical-3" title="Scroll to top" style="animation-duration: 600ms; animation-delay: 0ms; transition-delay: 0ms;"></a>
+{{--  --}}
 <script src="../resources/js/app.js"></script>
 <!--boostrap scripts-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
