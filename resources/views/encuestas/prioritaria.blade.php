@@ -12,13 +12,13 @@
   
     
     <!-- One "tab" for each step in the form: -->
-    <div class="tab">
+    {{--  <div class="tab">
       <h1>Datos del Paciente</h1>
       
       {{--<p><input placeholder="First name..." oninput="this.className = ''"></p>
       <p><input placeholder="Last name..." oninput="this.className = ''"></p>--}}
 
-      <div class="form-row">
+      {{--  <div class="form-row">
         <div class="form-group col-md-6">
           <label for="cedula">Cedula</label>
           <input id="cedula" type="number" class="form-control @error('cedula') is-invalid @enderror" name="cedula"  required autocomplete="cedula" autofocus>
@@ -76,19 +76,18 @@
             <option value="anuncio">Acompañante</option>
             <option value="cumpleaños">Paciente</option>
           </select>
-  
         </div>
           
         
-          @error('tipo')
-              <span class="invalid-feedback" role="alert"> 
-                  <strong>{{ $message }}</strong>
-              </span>
-          @enderror
-          {{--  <div class="form-group col-md-2">
-            <label for="inputZip">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
+        @error('tipo')
+            <span class="invalid-feedback" role="alert"> 
+                <strong>{{ $message }}</strong>
+            </span>
+        @enderror
+        {{--  <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
         
         <div class="form-group">
           <div class="form-check">
@@ -100,14 +99,185 @@
         </div>  --}}
 
       </div>
+    </div> 
 
-      
-    
-    </div>
-    
     <div class="tab">Contact Info:
       <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
       <p><input placeholder="Phone..." oninput="this.className = ''"></p>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+        <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+      </div>
+
+      <section id="seccion_nivel_estandar" class="row">
+        <div class="col-md-12">
+          <h4>
+            POR FAVOR SELECCIONE UNA OPCIÓN SEGÚN SU PERCEPCIÓN DEL SERVICIO RECIBIDO
+          </h4>
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-4 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Como califica nuestras instalaciones?</p>
+              <!--</div>-->
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">1</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">2</label>
+            </div>
+            {{--  <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>  --}}
+          </div>
+    
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo califica el trato recibido por parte del personal Administrativo?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo califica la atención del equipo de enfermeras?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo fue aseo de las instalaciones?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo califica el trato recibido por parte del personal Administrativo?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo califica información sobre los Apoyos Diagnosticos * ?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo califica la atención durante el traslado asistencial (ambulancia)?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div id="preguntas_estandar" class="col-md-6 ">
+              <!--<div class="items_preguntas_estandar">-->
+                <p class="">¿Cómo fue la información que recibió de normas y servicios?</p>
+              <!--</div>-->
+            </div>
+            <div class="col-md-4 items_preguntas_estandar">
+              <select class="opciones_desplegables" name="pregunta_estandar1">
+                <option value="0">Seleccionar</option>
+                <option value="5">Muy Bueno</option>
+                <option value="4">Bueno</option>
+                <option value="3">Regular</option>
+                <option value="2">Malo</option> 
+                <option value="1">Muy Malo</option> 
+              </select>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
     </div>
     
     <div class="tab">Birthday:
