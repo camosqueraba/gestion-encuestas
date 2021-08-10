@@ -12,13 +12,13 @@
   
     
     <!-- One "tab" for each step in the form: -->
-    {{--  <div class="tab">
+    <div class="tab">
       <h1>Datos del Paciente</h1>
       
       {{--<p><input placeholder="First name..." oninput="this.className = ''"></p>
       <p><input placeholder="Last name..." oninput="this.className = ''"></p>--}}
 
-      {{--  <div class="form-row">
+      <div class="form-row">
         <div class="form-group col-md-6">
           <label for="cedula">Cedula</label>
           <input id="cedula" type="number" class="form-control @error('cedula') is-invalid @enderror" name="cedula"  required autocomplete="cedula" autofocus>
@@ -99,54 +99,49 @@
         </div>  --}}
 
       </div>
+
     </div> 
 
-    <div class="tab">Contact Info:
-      <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
-      <p><input placeholder="Phone..." oninput="this.className = ''"></p>
-
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-        <label class="form-check-label" for="inlineRadio1">1</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">2</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
-        <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
-      </div>
-
+    <div class="tab">
       <section id="seccion_nivel_estandar" class="row">
+      
+        <h5>
+          POR FAVOR SELECCIONE UNA OPCIÓN SEGÚN SU PERCEPCIÓN DEL SERVICIO RECIBIDO
+        </h5>
+        <p>Califique con MB:Muy Bueno, B:Bueno, R:Regular, M:Malo o MM:Muy Malo</p>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            
+          </div>
+        </div>
         <div class="col-md-12">
-          <h4>
-            POR FAVOR SELECCIONE UNA OPCIÓN SEGÚN SU PERCEPCIÓN DEL SERVICIO RECIBIDO
-          </h4>
-          <div class="row">
+          
+          
+          <div class="form-row">
             <div id="preguntas_estandar" class="col-md-4 ">
-              <!--<div class="items_preguntas_estandar">-->
-                <p class="">¿Como califica nuestras instalaciones?</p>
-              <!--</div>-->
+              <p class="">¿Como califica nuestras instalaciones?</p>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">1</label>
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+              <label class="form-check-label" for="inlineRadio1">MB</label>
             </div>
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">2</label>
+              <label class="form-check-label" for="inlineRadio2">B</label>
             </div>
-            {{--  <div class="col-md-4 items_preguntas_estandar">
-              <select class="opciones_desplegables" name="pregunta_estandar1">
-                <option value="0">Seleccionar</option>
-                <option value="5">Muy Bueno</option>
-                <option value="4">Bueno</option>
-                <option value="3">Regular</option>
-                <option value="2">Malo</option> 
-                <option value="1">Muy Malo</option> 
-              </select>
-            </div>  --}}
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">R</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">M</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">MM</label>
+            </div>
           </div>
     
           <div class="row">
